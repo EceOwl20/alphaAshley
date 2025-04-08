@@ -1,6 +1,7 @@
 import { Montserrat, Roboto } from 'next/font/google'
 import "./globals.css";
 import Header from './GeneralComponents/Header';
+import Header2 from './GeneralComponents/Header2';
 
 const inter = Montserrat({
   subsets: ['latin'],
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${inter.variable} ${roboto.variable} `}>
           <Header/>
+          <Header2/>
         {children}
       </body>
     </html>
