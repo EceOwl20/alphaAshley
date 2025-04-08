@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+html {
+  font-family: var(--font-montserrat);
+}
+ 
+h1,h2,h3,h4,h5,span {
+  font-family: var(--font-roboto);
+}
+
+p {
+  font-family: var(--font-montserrat);
+}
