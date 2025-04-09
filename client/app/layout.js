@@ -2,6 +2,7 @@ import { Montserrat, Roboto } from 'next/font/google'
 import "./globals.css";
 import Header from './GeneralComponents/Header';
 import Header2 from './GeneralComponents/Header2';
+import Footer from './GeneralComponents/Footer';
 
 const inter = Montserrat({
   subsets: ['latin'],
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
           <Header/>
           <Header2/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
