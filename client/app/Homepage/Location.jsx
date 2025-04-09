@@ -4,7 +4,7 @@ const Location = () => {
   return (
     <div>
       <iframe
-      src='https://www.google.com/maps.googleapis.com/maps/api/js?v=3.59&client=google-maps-pro&language=tr&region=TR&libraries=places,visualization,geometry,search'
+      src=' https://www.google.com/maps/d/viewer?mid=1dK2Y5uAD3PQ5X0a6ywVKUPeG8IIx0UQ&usp=sharing'
        width="100%"
        height="500px"
        style={{ border: 0 }}

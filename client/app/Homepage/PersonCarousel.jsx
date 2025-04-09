@@ -1,6 +1,7 @@
 "use client";
 import React, { useCallback, useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
+import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
 import Link from "next/link";
 import img1 from "@/public/images/homepage/person1.png"
@@ -24,7 +25,16 @@ const images =[img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,im
 const PersonCarousel = () => {
     const [emblaRef, emblaApi] = useEmblaCarousel({  loop: true,
         align: "start",
-        startIndex: 0, });
+        startIndex: 0, },
+        [
+          Autoplay({
+            delay: 3000,
+            stopOnInteraction: false,
+            stopOnMouseEnter: false,
+            playDirection: "forward",
+          }),
+        ]
+      );
     
       const [selectedIndex, setSelectedIndex] = useState(0);
         
@@ -46,8 +56,8 @@ const PersonCarousel = () => {
       }, [emblaApi]);
 
   return (
-    <div className="flex w-screen items-center justify-center h-[70vh]">
-      <div className="flex flex-col w-[87.79%] md:w-[91.4%] lg:w-[65%] items-start lg:items-center justify-center gap-[30px] lg:gap-[50px] lg:min-w-[960px]">
+    <div className="flex w-screen items-center justify-center h-auto lg:h-[70vh] my-[50px]">
+      <div className="flex flex-col w-[80%] md:w-[70%] lg:w-[65%] items-center justify-center gap-[30px] lg:gap-[50px] lg:min-w-[960px]">
 
         {/* embla carousel */}
         <div className="overflow-hidden w-full" ref={emblaRef}>
@@ -55,7 +65,7 @@ const PersonCarousel = () => {
             {images.map((image,index) => (
               <div
                 key={index}
-                className="flex-[0_0_85%] sm:flex-[0_0_75%] md:max-h-auto md:flex-[0_0_50%] lg:flex-[0_0_31%] xl:flex-[0_0_31.5%] min-w-0 mr-[2.5%]"
+                className="flex-[0_0_100%] sm:flex-[0_0_95%] md:max-h-auto md:flex-[0_0_50%] lg:flex-[0_0_31%] xl:flex-[0_0_31.5%] min-w-0 mr-[2.5%]"
               >
                 <div className="flex flex-col w-full items-start text-start justify-center gap-[15px] lg:gap-[20px] font-jost text-black ">
                   <Image
