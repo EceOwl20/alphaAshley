@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${roboto.variable} `}>
+        className={`${inter.variable} ${roboto.variable} overflow-x-hidden `}>
           <Header/>
           <Header2/>
         {children}

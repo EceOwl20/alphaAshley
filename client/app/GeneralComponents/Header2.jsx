@@ -45,7 +45,7 @@ const Header2 = () => {
 
   return (
     <div
-      className={`flex fixed w-screen items-center justify-center bg-white h-[66px] lg:h-[72px] transition-transform duration-300 z-[999] shadow-md ${headerClass}`}
+      className={`flex fixed w-screen items-center justify-center  bg-white h-[66px] lg:h-[72px] transition-transform duration-300 z-[999] shadow-md ${headerClass}`}
     >
       <div className="flex items-center justify-between w-[95%]">
         <div className="flex items-center justify-center gap-[15px]">
@@ -58,9 +58,9 @@ const Header2 = () => {
       <div className="lg:hidden">
           <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
             {mobileMenuOpen ? (
-              <IoClose size={30} color="#6f6f6f" />
+              <IoClose size={26} color="#6f6f6f" />
             ) : (
-              <IoMenu size={30} color="#6f6f6f" />
+              <IoMenu size={26} color="#6f6f6f" />
             )}
           </button>
         </div>
@@ -69,7 +69,7 @@ const Header2 = () => {
           <Link href="/">ANASAYFA</Link>
           <Link href="/hakkimizda">HAKKIMIZDA</Link>
           <Link href="/hizmetlerimiz">HİZMETLERİMİZ</Link>
-          <Link href="/saglıkturizmi">SAĞLIK TURİZMİ</Link>
+          <Link href="/saglikturizmi">SAĞLIK TURİZMİ</Link>
           <Link href="/referanslarimiz">REFERANSLARIMIZ</Link>
           <Link href="/blog">BLOG</Link>
           <Link href="/insankaynaklari">İNSAN KAYNAKLARI</Link>
@@ -78,31 +78,70 @@ const Header2 = () => {
 
       {/* Mobil Menü: lg dışı görünür */}
       {mobileMenuOpen && (
-        <div className="flex flex-col w-full bg-[#232323]/70 absolute top-full left-0 max-h-[335px]">
-          <Link href="/" onClick={() => setMobileMenuOpen(false)} className="text-[12px] p-15 w-full text-white font-semibold uppercase h-[50px]">
-            ANASAYFA
-          </Link>
-          <div className="flex w-full h-[1px] bg-lightGray"></div>
-          <Link href="/hakkimizda" onClick={() => setMobileMenuOpen(false)} className="text-[12px] p-15 w-full text-white font-semibold uppercase h-[50px]">
-            HAKKIMIZDA
-          </Link>
-          <Link href="/hizmetlerimiz" onClick={() => setMobileMenuOpen(false)} className="text-[12px] p-15 w-full text-white font-semibold uppercase h-[50px]">
-            HİZMETLERİMİZ
-          </Link>
-          <Link href="/saglıkturizmi" onClick={() => setMobileMenuOpen(false)} className="text-[12px] p-15 w-full text-white font-semibold uppercase h-[50px]">
-            SAĞLIK TURİZMİ
-          </Link>
-          <Link href="/referanslarimiz" onClick={() => setMobileMenuOpen(false)} className="text-[12px] p-15 w-full text-white font-semibold uppercase h-[50px]">
-            REFERANSLARIMIZ
-          </Link>
-          <Link href="/blog" onClick={() => setMobileMenuOpen(false)} className="text-[12px] p-15 w-full text-white font-semibold uppercase h-[50px]">
-            BLOG
-          </Link>
-          <Link href="/insankaynaklari" onClick={() => setMobileMenuOpen(false)} className="text-[12px] p-15 w-full text-white font-semibold uppercase h-[50px]">
-            İNSAN KAYNAKLARI
-          </Link>
-        </div>
-      )}
+  <div 
+    className={`flex flex-col w-full bg-[#232323]/90 absolute top-full left-0 max-h-[335px] overflow-y-auto font-montserrat items-start justify-start text-start z-[999] 
+      !transform !transition-[margin-right] !duration-500 !ease-in-out 
+      ${mobileMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2 pointer-events-none"}`}
+  >
+    <Link 
+      href="/" 
+      onClick={() => setMobileMenuOpen(false)} 
+      className="text-[12px] w-full text-white font-semibold uppercase h-[50px] flex items-center justify-start p-[15px] text-start"
+    >
+      ANASAYFA
+    </Link>
+    <div className="flex w-full h-[1px] bg-lightGray"></div>
+    <Link 
+      href="/hakkimizda" 
+      onClick={() => setMobileMenuOpen(false)} 
+      className="text-[12px] w-full text-white font-semibold uppercase h-[50px] flex p-[15px]"
+    >
+      HAKKIMIZDA
+    </Link>
+    <div className="flex w-full h-[1px] bg-lightGray"></div>
+    <Link 
+      href="/hizmetlerimiz" 
+      onClick={() => setMobileMenuOpen(false)} 
+      className="text-[12px] w-full text-white font-semibold uppercase h-[50px] flex p-[15px]"
+    >
+      HİZMETLERİMİZ
+    </Link>
+    <div className="flex w-full h-[1px] bg-lightGray"></div>
+    <Link 
+      href="/saglikturizmi" 
+      onClick={() => setMobileMenuOpen(false)} 
+      className="text-[12px] w-full text-white font-semibold uppercase h-[50px] flex p-[15px]"
+    >
+      SAĞLIK TURİZMİ
+    </Link>
+    <div className="flex w-full h-[1px] bg-lightGray"></div>
+    <Link 
+      href="/referanslarimiz" 
+      onClick={() => setMobileMenuOpen(false)} 
+      className="text-[12px] w-full text-white font-semibold uppercase h-[50px] flex p-[15px]"
+    >
+      REFERANSLARIMIZ
+    </Link>
+    <div className="flex w-full h-[1px] bg-lightGray"></div>
+    <Link 
+      href="/blog" 
+      onClick={() => setMobileMenuOpen(false)} 
+      className="text-[12px] w-full text-white font-semibold uppercase h-[50px] flex p-[15px]"
+    >
+      BLOG
+    </Link>
+    <div className="flex w-full h-[1px] bg-lightGray"></div>
+    <Link 
+      href="/insankaynaklari" 
+      onClick={() => setMobileMenuOpen(false)} 
+      className="text-[12px] w-full text-white font-semibold uppercase h-[50px] flex p-[15px]"
+    >
+      İNSAN KAYNAKLARI
+    </Link>
+  </div>
+)}
+
+
     </div>
   );
 };

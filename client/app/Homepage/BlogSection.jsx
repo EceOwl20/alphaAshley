@@ -1,11 +1,32 @@
-import Image from "next/image";
-import React from "react";
+"use client"
+import Image from 'next/image'
+import React, { useState, useEffect, useRef } from 'react'
 import img1 from "@/public/images/homepage/blog-1.jpg"
 import img2 from "@/public/images/homepage/blog-2.jpg"
 import img3 from "@/public/images/homepage/blog-3.jpg"
 import Link from "next/link";
 
 const BlogSection = () => {
+  const containerRef = useRef(null);
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setVisible(true);
+          observer.disconnect(); // İlk kez görünür olduğunda disconnect et
+        }
+      });
+    }, { threshold: 0.2 });
+
+    if (containerRef.current) {
+      observer.observe(containerRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <div className="flex w-screen items-center justify-center my-[100px]">
       <div className="flex flex-col w-[90%] lg:w-[70%] max-w-[1200px] items-center justify-center gap-[50px] lg:gap-[100px]">
@@ -19,7 +40,9 @@ const BlogSection = () => {
           <div className="flex w-[100px] h-[1px] bg-[#FF214F]"></div>
         </div>
 
-        <div className="flex flex-col sm:grid grid-cols-2 lg:grid-cols-3 gap-[20px] text-[#6F6F6F]">
+        <div className={`flex flex-col sm:grid grid-cols-2 lg:grid-cols-3 gap-[20px] text-[#6F6F6F] transition-transform duration-500 transform ease-out ${
+              visible ? " translate-y-0" : " translate-y-10"
+            }`}>
 
             <div className="flex flex-col w-full h-[478px] items-center justify-center py-[10px] shadow-lg transition-shadow duration-300 ease-in-out hover:shadow-xl">
                 <div className="flex w-full h-[238px] relative">

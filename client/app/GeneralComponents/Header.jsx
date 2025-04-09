@@ -8,9 +8,12 @@ const Header = () => {
     <div className='flex sticky w-screen bg-black h-[50px] text-white items-center justify-center z-[999]'>
       <div className='flex w-[90%] lg:w-[70%] items-center justify-between leading-normal'>
        <div className='flex gap-[15px] items-center justify-center'>
-        <Link href="/" className='hidden lg:flex'><FaLinkedinIn size={12}/></Link>
-        <Link href="/" className='hidden lg:flex'><FaFacebookF size={12}/></Link>
-        <Link href="/" className='hidden lg:flex'><FaInstagram size={13}/></Link>
+        <Link href="https://www.linkedin.com/company/94114251/admin/feed/posts/" rel="norefferer nofollower"
+                  target="_blank" className='hidden lg:flex'><FaLinkedinIn size={12}/></Link>
+        <Link href="https://www.facebook.com/alphaashleydanismanlik" rel="norefferer nofollower"
+                  target="_blank" className='hidden lg:flex'><FaFacebookF size={12}/></Link>
+        <Link href="https://www.instagram.com/alphaashleydanismanlik/" rel="norefferer nofollower"
+                  target="_blank" className='hidden lg:flex'><FaInstagram size={13}/></Link>
        <p className='text-[10px] hover:text-[#ff214f]  cursor-pointer'>+90 549 196 19 11</p>
        <div className='flex h-[10px] w-[1px] bg-[#757575]'></div>
        <p className='text-[10px] hover:text-[#ff214f]  cursor-pointer'>+44 7555 744506</p>

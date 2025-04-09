@@ -1,6 +1,7 @@
 "use client";
 import React, { useCallback, useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
+import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
 import Link from "next/link";
 import img1 from "@/public/images/homepage/person1.png"
@@ -24,7 +25,16 @@ const images =[img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,im
 const PersonCarousel = () => {
     const [emblaRef, emblaApi] = useEmblaCarousel({  loop: true,
         align: "start",
-        startIndex: 0, });
+        startIndex: 0, },
+        [
+          Autoplay({
+            delay: 3000,
+            stopOnInteraction: false,
+            stopOnMouseEnter: false,
+            playDirection: "forward",
+          }),
+        ]
+      );
     
       const [selectedIndex, setSelectedIndex] = useState(0);
         
@@ -47,7 +57,7 @@ const PersonCarousel = () => {
 
   return (
     <div className="flex w-screen items-center justify-center h-auto lg:h-[70vh] my-[50px]">
-      <div className="flex flex-col w-[60%] md:w-[70%] lg:w-[65%] items-center justify-center gap-[30px] lg:gap-[50px] lg:min-w-[960px]">
+      <div className="flex flex-col w-[80%] md:w-[70%] lg:w-[65%] items-center justify-center gap-[30px] lg:gap-[50px] lg:min-w-[960px]">
 
         {/* embla carousel */}
         <div className="overflow-hidden w-full" ref={emblaRef}>
