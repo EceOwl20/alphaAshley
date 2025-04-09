@@ -46,8 +46,8 @@ const PersonCarousel = () => {
       }, [emblaApi]);
 
   return (
-    <div className="flex w-screen items-center justify-center h-[70vh]">
-      <div className="flex flex-col w-[87.79%] md:w-[91.4%] lg:w-[65%] items-start lg:items-center justify-center gap-[30px] lg:gap-[50px] lg:min-w-[960px]">
+    <div className="flex w-screen items-center justify-center h-auto lg:h-[70vh] my-[50px]">
+      <div className="flex flex-col w-[60%] md:w-[70%] lg:w-[65%] items-center justify-center gap-[30px] lg:gap-[50px] lg:min-w-[960px]">
 
         {/* embla carousel */}
         <div className="overflow-hidden w-full" ref={emblaRef}>
@@ -55,7 +55,7 @@ const PersonCarousel = () => {
             {images.map((image,index) => (
               <div
                 key={index}
-                className="flex-[0_0_85%] sm:flex-[0_0_75%] md:max-h-auto md:flex-[0_0_50%] lg:flex-[0_0_31%] xl:flex-[0_0_31.5%] min-w-0 mr-[2.5%]"
+                className="flex-[0_0_100%] sm:flex-[0_0_95%] md:max-h-auto md:flex-[0_0_50%] lg:flex-[0_0_31%] xl:flex-[0_0_31.5%] min-w-0 mr-[2.5%]"
               >
                 <div className="flex flex-col w-full items-start text-start justify-center gap-[15px] lg:gap-[20px] font-jost text-black ">
                   <Image

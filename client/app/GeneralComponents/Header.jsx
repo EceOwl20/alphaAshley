@@ -6,11 +6,11 @@ import { IoMdArrowDropdown } from "react-icons/io";
 const Header = () => {
   return (
     <div className='flex sticky w-screen bg-black h-[50px] text-white items-center justify-center z-[999]'>
-      <div className='flex w-[70%] items-center justify-between leading-normal'>
+      <div className='flex w-[90%] lg:w-[70%] items-center justify-between leading-normal'>
        <div className='flex gap-[15px] items-center justify-center'>
-        <Link href="/"><FaLinkedinIn size={12}/></Link>
-        <Link href="/"><FaFacebookF size={12}/></Link>
-        <Link href="/"><FaInstagram size={13}/></Link>
+        <Link href="/" className='hidden lg:flex'><FaLinkedinIn size={12}/></Link>
+        <Link href="/" className='hidden lg:flex'><FaFacebookF size={12}/></Link>
+        <Link href="/" className='hidden lg:flex'><FaInstagram size={13}/></Link>
        <p className='text-[10px] hover:text-[#ff214f]  cursor-pointer'>+90 549 196 19 11</p>
        <div className='flex h-[10px] w-[1px] bg-[#757575]'></div>
        <p className='text-[10px] hover:text-[#ff214f]  cursor-pointer'>+44 7555 744506</p>
@@ -18,7 +18,7 @@ const Header = () => {
        <p className='text-[10px] hover:text-[#ff214f]  cursor-pointer font-medium uppercase'>info.alphaashley@gmail.com</p>
        </div>
 
-       <div className='flex items-center justify-center gap-[15px]'>
+       <div className='hidden lg:flex items-center justify-center gap-[15px]'>
         <div className='flex items-center justify-center bg-[#34A853] cursor-pointer p-[4px] rounded-md'>
             <FaWhatsapp size={25} color='black'/>
         </div>

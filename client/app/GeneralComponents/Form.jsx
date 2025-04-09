@@ -32,14 +32,14 @@ const Form = () => {
 
   return (
     <div>
-       <div className='flex flex-col w-[50vw] h-[70vh] items-center justify-center bg-white py-[20px]'>
+       <div className='flex flex-col w-screen lg:w-[50vw] lg:h-[70vh] items-center justify-center bg-white py-[20px]'>
         <div className='flex flex-col items-center justify-center gap-[15px] lg:gap-[25px] mb-[25px] lg:mb-[52px]'>
             <h5 className='text-[#232323] font-bold text-[32px] leading-[40px] uppercase'>BİZE ULAŞIN</h5>
             <span className='text-[14px] leading-[24px] font-normal text-[#6F6F6F]'>Detaylar için hemen görüşelim.</span>
         </div>
         <form onSubmit={handleSubmit}  className="flex flex-col gap-4 w-[90%] text-start items-center text-[14px] font-montserrat">
       
-     <div className="flex w-full gap-[30px] items-center justify-center">
+     <div className="flex flex-col lg:flex-row w-full gap-[30px] items-center justify-center">
      <div className="flex flex-col w-full">
         <input
           type="text"
@@ -66,7 +66,7 @@ const Form = () => {
       </div>
      </div>
 
-  <div className="flex w-full gap-[30px] items-center justify-center">
+  <div className="flex flex-col lg:flex-row w-full gap-[30px] items-center justify-center">
   <div className="flex flex-col w-full">
         <input
           type="email"
