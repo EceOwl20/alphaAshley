@@ -28,7 +28,7 @@ const BlogSection = () => {
   }, []);
 
   return (
-    <div className="flex w-screen items-center justify-center my-[100px]">
+    <div ref={containerRef} className="flex w-screen items-center justify-center my-[100px]">
       <div className="flex flex-col w-[90%] lg:w-[70%] max-w-[1200px] items-center justify-center gap-[50px] lg:gap-[100px]">
         <div className="flex flex-col text-center items-center justify-center gap-[5px] font-montserrat">
           <h5 className="text-[#232323] text-[32px] mb-[15px] font-bold leading-[40px]">
@@ -41,7 +41,7 @@ const BlogSection = () => {
         </div>
 
         <div className={`flex flex-col sm:grid grid-cols-2 lg:grid-cols-3 gap-[20px] text-[#6F6F6F] transition-transform duration-500 transform ease-out ${
-              visible ? " translate-y-0" : " translate-y-10"
+              visible ? " translate-y-0" : " translate-y-24"
             }`}>
 
             <div className="flex flex-col w-full h-[478px] items-center justify-center py-[10px] shadow-lg transition-shadow duration-300 ease-in-out hover:shadow-xl">

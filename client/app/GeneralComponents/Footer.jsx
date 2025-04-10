@@ -81,7 +81,7 @@ const Footer = () => {
       </div>
 
       {/* Section 2 */}
-      <div className="flex flex-col lg:flex-row w-full ">
+      <div id="iletisim" className="flex flex-col lg:flex-row w-full ">
       <div
         className={`flex w-screen py-[50px] lg:py-0 lg:w-[50%] bg-black items-center justify-center transform transition-all duration-700 ease-out ${
           animate ? "translate-x-0" : "translate-x-full"
