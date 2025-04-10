@@ -6,7 +6,7 @@ const TextSection = () => {
     <div className='flex w-screen items-center justify-center'>
       <div className='flex flex-col w-[92%] lg:w-[70%] max-w-[975px] items-start justify-start text-start gap-[20px] lg:gap-[25px] font-roboto text-darkGray'>
         <h4 className='text-[20px] lg:text-[32px] font-roboto leading-[40px] font-normal text-lightGray'>YURT DIŞI MEETING HİZMETLERİ</h4>
-        <p className='text-[16px] leading-[30px]  '>Alpha Ashley Danışmanlık sizlere Full Paket Meeting Programı sayesinde hastalarınızla yurt dışında yüz yüze görüşme ve kaliteli satış olanağı sağlamaktadır. Sağlık turizmi alanındaki uzman kadromuzla kliniğinizin kapılarını İngiltere’ye açıyoruz!</p>
+        <p className='text-[16px] leading-[30px]  '>Alpha Ashley Danışmanlık sizlere Full Paket Meeting Programı sayesinde hastalarınızla yurt dışında buluşma ve kaliteli satış olanağı sağlamaktadır. Sağlık turizmi alanındaki uzman kadromuzla kliniğinizin kapılarını Avrupa'ya açıyoruz!</p>
         <p className='text-[16px] leading-[30px] '>- İngiltere'de ve Avrupa’da Meeting yapılacak otellerin ayarlanması</p>
         <p className='text-[16px] leading-[30px] '>- Sağlık Turizmi alanında anadili İngilizce uzman satış personeli desteğinin sağlanması</p>
         <p className='text-[16px] leading-[30px] '>- Kliniğinizin en iyi şekilde tanıtılması</p>

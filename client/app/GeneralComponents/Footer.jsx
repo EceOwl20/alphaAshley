@@ -32,11 +32,12 @@ const Footer = () => {
             sunar.
           </p>
           <div className="flex w-full gap-[10px] items-center justify-center md:items-start md:justify-start">
-            <Link href="" rel="norefferer nofollower"
+            <a rel="norefferer nofollower" href="https://wa.me/447538893032"
                   target="_blank" className="cursor-pointer">
               {" "}
-              <FaWhatsapp />
-            </Link>
+            <FaWhatsapp />
+        
+            </a>
             <Link href="https://www.linkedin.com/company/94114251/admin/feed/posts/" rel="norefferer nofollower"
                   target="_blank" className="cursor-pointer">
               {" "}
@@ -60,7 +61,7 @@ const Footer = () => {
             E-MAIL
           </p>
           <a
-            href="info.alphaashley@gmail.com"
+            href="mailto:info.alphaashley@gmail.com"
             className="text-[12px] font-roboto font-normal leading-[20px]"
           >
             Email: info.alphaashley@gmail.com
@@ -72,12 +73,12 @@ const Footer = () => {
           <p className="text-[12px] font-montserrat font-semibold leading-[20px] uppercase text-darkGray mb-[15px]">
             BİZİ ARAYIN
           </p>
-          <p className="text-[12px] font-roboto font-normal leading-[20px]">
+          <a href="tel:+905491961911" className="text-[12px] font-roboto font-normal leading-[20px]">
             TR No: +90 549 196 19 11
-          </p>
-          <p className="text-[12px] font-roboto font-normal leading-[20px] ">
-            UK No: +44 7555 744506
-          </p>
+          </a>
+          <a href="tel:+447538893032" className="text-[12px] font-roboto font-normal leading-[20px] ">
+            UK No:+44 7538 893032
+          </a>
         </div>
       </div>
 
@@ -104,11 +105,13 @@ const Footer = () => {
             <span className="text-[12px] text-lightGray font-roboto font-normal leading-[20px] flex flex-row">Powered by <Link href="https://dgtlface.com" rel="norefferer nofollower"
                   target="_blank"><DgtlfaceSvg className="flex" width={90} height={20} /></Link></span>
             <div className="flex gap-[7px] items-center justify-center">
-            <Link href="" className="cursor-pointer " rel="norefferer nofollower"
-                  target="_blank">
-              {" "}
-              <FaWhatsapp size={15}/>
-            </Link>
+           
+              <a  href="https://wa.me/447538893032" 
+  target="_blank" 
+  rel="noopener noreferrer" className='flex items-center justify-center bg-[#34A853] cursor-pointer p-[4px] rounded-md'>
+            <FaWhatsapp size={15} color='black'/>
+        </a>
+            
             <Link href="https://www.linkedin.com/company/94114251/admin/feed/posts/" className="cursor-pointer" rel="norefferer nofollower"
                   target="_blank">
               {" "}
