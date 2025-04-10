@@ -79,64 +79,78 @@ const Header2 = () => {
       {/* Mobil Menü: lg dışı görünür */}
       {mobileMenuOpen && (
   <div 
-    className={`flex flex-col w-full bg-[#232323]/90 absolute top-full left-0 max-h-[335px] overflow-y-auto font-montserrat items-start justify-start text-start z-[999] 
+    className={`flex flex-col w-full bg-[rgba(23,23,23,0.95)] absolute top-full overflow-y-auto left-0 max-h-[335px] font-montserrat items-start justify-start text-start z-[999] 
       !transform !transition-[margin-right] !duration-500 !ease-in-out 
       ${mobileMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2 pointer-events-none"}`}
   >
     <Link 
       href="/" 
       onClick={() => setMobileMenuOpen(false)} 
-      className="text-[12px] w-full text-white font-semibold uppercase h-[50px] flex items-center justify-start p-[15px] text-start"
+      className="text-[12px] w-full text-white font-medium uppercase h-[50px] flex items-center justify-start pl-[15px] py-[12px] text-start border-b border-[#6F6F6F]/50"
     >
       ANASAYFA
     </Link>
-    <div className="flex w-full h-[1px] bg-lightGray"></div>
+   
     <Link 
       href="/hakkimizda" 
       onClick={() => setMobileMenuOpen(false)} 
-      className="text-[12px] w-full text-white font-semibold uppercase h-[50px] flex p-[15px]"
+      className="text-[12px] w-full text-white font-medium uppercase h-[50px] flex pl-[15px] py-[12px] border-b border-[#6F6F6F]/50"
     >
       HAKKIMIZDA
     </Link>
-    <div className="flex w-full h-[1px] bg-lightGray"></div>
+   
     <Link 
       href="/hizmetlerimiz" 
       onClick={() => setMobileMenuOpen(false)} 
-      className="text-[12px] w-full text-white font-semibold uppercase h-[50px] flex p-[15px]"
+      className="text-[12px] w-full text-white font-medium uppercase h-[50px] flex pl-[15px] py-[12px] border-b border-[#6F6F6F]/50"
     >
       HİZMETLERİMİZ
     </Link>
-    <div className="flex w-full h-[1px] bg-lightGray"></div>
+  
     <Link 
       href="/saglikturizmi" 
       onClick={() => setMobileMenuOpen(false)} 
-      className="text-[12px] w-full text-white font-semibold uppercase h-[50px] flex p-[15px]"
+      className="text-[12px] w-full text-white font-medium uppercase h-[50px] flex pl-[15px] py-[12px] border-b border-[#6F6F6F]/50"
     >
       SAĞLIK TURİZMİ
     </Link>
-    <div className="flex w-full h-[1px] bg-lightGray"></div>
+   
     <Link 
       href="/referanslarimiz" 
       onClick={() => setMobileMenuOpen(false)} 
-      className="text-[12px] w-full text-white font-semibold uppercase h-[50px] flex p-[15px]"
+      className="text-[12px] w-full text-white font-medium uppercase h-[50px] flex pl-[15px] py-[12px] border-b border-[#6F6F6F]/50"
     >
       REFERANSLARIMIZ
     </Link>
-    <div className="flex w-full h-[1px] bg-lightGray"></div>
+  
     <Link 
       href="/blog" 
       onClick={() => setMobileMenuOpen(false)} 
-      className="text-[12px] w-full text-white font-semibold uppercase h-[50px] flex p-[15px]"
+      className="text-[12px] w-full text-white font-medium uppercase h-[50px] flex pl-[15px] py-[12px] border-b border-[#6F6F6F]/50"
     >
       BLOG
     </Link>
-    <div className="flex w-full h-[1px] bg-lightGray"></div>
+    
     <Link 
       href="/insankaynaklari" 
       onClick={() => setMobileMenuOpen(false)} 
-      className="text-[12px] w-full text-white font-semibold uppercase h-[50px] flex p-[15px]"
+      className="text-[12px] w-full text-white font-medium uppercase h-[50px] flex pl-[15px] py-[12px] border-b border-[#6F6F6F]/50"
     >
       İNSAN KAYNAKLARI
+    </Link>
+    <Link 
+      href="/videolar" 
+      onClick={() => setMobileMenuOpen(false)} 
+      className="text-[12px] w-full text-white font-medium uppercase h-[50px] flex pl-[15px] py-[12px] border-b border-[#6F6F6F]/50"
+    >
+     VİDEOLAR
+    </Link>
+    <Link 
+      href="#iletisim" 
+      onClick={() => setMobileMenuOpen(false)} 
+      className="text-[12px] w-full text-white font-medium uppercase h-[50px] flex pl-[15px] py-[12px] border-b border-[#6F6F6F]/50"
+    >
+     İLETİŞİM
     </Link>
   </div>
 )}
