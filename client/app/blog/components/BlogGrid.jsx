@@ -13,9 +13,9 @@ const BlogGrid = () => {
         <div className='flex flex-col border border-[#CCCCCC] items-center justify-start'>
             <Image src={img1} alt='blog' width={img1.width} height={img1.height} className='w-full object-cover max-h-[300px]'/>
             <div className='flex flex-col w-[90%] items-start justify-start text-start gap-[23px] p-[35px]'>
-                <Link href="/" className='text-[16px] text-[#232323] font-montserrat leading-[23px] hover:text-[#ff214f] mb-[5px]'>2023’ün En Harika Tatil Şehri: Antalya</Link>
+                <Link href="/blog/blog-antalya" className='text-[16px] text-[#232323] font-montserrat leading-[23px] hover:text-[#ff214f] mb-[5px]'>2023’ün En Harika Tatil Şehri: Antalya</Link>
                 <div className='flex h-[1px] w-full bg-[#CCCCCC]'></div>
-                <p className='text-[14px] font-roboto line-clamp6 leading-[24px] font-normal text-lightGray'>Antalya, Türkiye'nin güney kıyısında yer alan bir tatil cennetidir. Yerli ve yabancı turistlerin uğrak noktasıdır. İngilizlerin gözdesi olan bu cennet şehirde yapılacak şey çok fazla! Tatilin ve sağlık turizminin en güzel buluşma yeri Antalya'da tatil yapmayı düşünenler için bazı önemli bilgiler:...<Link href="/" className="font-montserrat text-[14px] font-roboto leading-[24px] font-normal text-[#939393] hover:text-[#FF214F] cursor-pointer">Devamını Oku</Link></p>
+                <p className='text-[14px] font-roboto line-clamp6 leading-[24px] font-normal text-lightGray'>Antalya, Türkiye'nin güney kıyısında yer alan bir tatil cennetidir. Yerli ve yabancı turistlerin uğrak noktasıdır. İngilizlerin gözdesi olan bu cennet şehirde yapılacak şey çok fazla! Tatilin ve sağlık turizminin en güzel buluşma yeri Antalya'da tatil yapmayı düşünenler için bazı önemli bilgiler:...<Link href="/blog/blog-antalya" className="font-montserrat text-[14px] font-roboto leading-[24px] font-normal text-[#939393] hover:text-[#FF214F] cursor-pointer">Devamını Oku</Link></p>
             </div>
         </div>
 
