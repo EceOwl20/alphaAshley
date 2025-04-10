@@ -25,8 +25,8 @@ const Header = () => {
         <div className='flex items-center justify-center bg-[#34A853] cursor-pointer p-[4px] rounded-md'>
             <FaWhatsapp size={25} color='black'/>
         </div>
-        <h3 className='text-[14px] uppercase font-normal leading-[24px]  cursor-pointer'>VİDEOLAR</h3>
-        <h3 className='text-[14px] uppercase font-normal leading-[24px]  cursor-pointer'>İLETİŞİM</h3>
+        <Link href="/videolar" className='text-[14px] uppercase font-normal leading-[24px]  cursor-pointer font-roboto'>VİDEOLAR</Link>
+        <Link href="#iletisim" className='text-[14px] uppercase font-normal leading-[24px]  cursor-pointer font-roboto'>İLETİŞİM</Link>
         <div className='flex h-[10px] w-[1px] bg-[#757575]'></div>
         <h4 className='text-[11px] font-normal  cursor-pointer'>TURKISH</h4>
         <IoMdArrowDropdown />

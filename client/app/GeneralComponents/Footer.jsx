@@ -10,6 +10,7 @@ import {
 import Form from "./Form";
 import logoImg from "@/public/images/alpha-ashey-logo.png"
 import Image from "next/image";
+import DgtlfaceSvg from "./DgtlfaceSvg";
 
 const Footer = () => {
     const [animate, setAnimate] = useState(false);
@@ -81,7 +82,7 @@ const Footer = () => {
       </div>
 
       {/* Section 2 */}
-      <div className="flex flex-col lg:flex-row w-full ">
+      <div id="iletisim" className="flex flex-col lg:flex-row w-full ">
       <div
         className={`flex w-screen py-[50px] lg:py-0 lg:w-[50%] bg-black items-center justify-center transform transition-all duration-700 ease-out ${
           animate ? "translate-x-0" : "translate-x-full"
@@ -100,7 +101,8 @@ const Footer = () => {
       {/* Section 3 */}
       <div className="flex flex-col lg:flex-row w-full items-center justify-center bg-[#f7f7f7] h-[120px]">
         <div className="flex flex-col lg:flex-row w-[95%] lg:w-[80%] items-center justify-between">
-            <span className="text-[12px] text-lightGray font-roboto font-normal leading-[20px] ">© 2023 Alpha Ashley Danışmanlık, Web Tasarım: Berker Melih</span>
+            <span className="text-[12px] text-lightGray font-roboto font-normal leading-[20px] flex flex-row">Powered by <Link href="https://dgtlface.com" rel="norefferer nofollower"
+                  target="_blank"><DgtlfaceSvg className="flex" width={90} height={20} /></Link></span>
             <div className="flex gap-[7px] items-center justify-center">
             <Link href="" className="cursor-pointer " rel="norefferer nofollower"
                   target="_blank">
