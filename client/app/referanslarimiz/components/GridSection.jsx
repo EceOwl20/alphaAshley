@@ -23,8 +23,13 @@ import img21 from "@/public/images/referanslar/ref21.png"
 import img23 from "@/public/images/referanslar/ref23.jpg"
 import img24 from "@/public/images/referanslar/ref24.png"
 import Image from 'next/image'
+import Link from 'next/link'
 
 const images = [img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img15,img16,img17,img18,img19,img20,img21,img23,img24];
+const links = ["https://antalyasmiledesigns.com/","https://orisdentalturkey.com/","https://antalyasmiledesigns.com/","https://www.qualitypremium.dental/","https://ozdemirdentalcenter.com/","https://exclusivedentalturkey.com/","https://www.dentarmaturkey.com/tr/",
+  "https://www.newerasmile.com/tr","https://dentprecious.com/","https://bronzedentalclinic.com/","https://www.andepol.com/","https://amazingsmileturkey.com/","https://www.thepearlclinicantalya.com/","https://goclinicturkey.com/",
+  "https://yalindentalclinic.com/tr/","https://www.ozeldenaclinic.com/tr","https://idclinictr.com/","https://www.umutdentalclinicantalya.com/en","https://oriondentalhealth.com/","https://www.ortodentclinic.com/en","https://cosmopolident.com/tr/","https://www.habitat-health.com/"
+] 
 
 const GridSection = () => {
     const containerRef = useRef(null);
@@ -49,11 +54,12 @@ const GridSection = () => {
     <div ref={containerRef} className='flex w-screen items-center justify-center py-[80px]'>
     <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-[90%] sm:w-[85%] md:w-[85%] lg:w-[960px] xl:w-[1170px] gap-4 md:gap-16 lg:gap-6'>
     {images.map((image,index) => (
-        <div key={index} className={`flex bg-white items-center justify-center w-[100%] md:h-[330px] lg:w-[289.98px] lg:h-[289.98px] xl:w-[360px] xl:h-[360px] transition-all duration-700 transform ${
+        <Link href={links[index]} target="_blank" 
+        rel="noopener noreferrer" key={index} className={`flex bg-white items-center justify-center w-[100%] md:h-[330px] lg:w-[289.98px] lg:h-[289.98px] xl:w-[360px] xl:h-[360px] transition-all duration-700 transform ${
               visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10" 
             }`}  style={{ transitionDelay: `${index * 0.2}s` }}>
           <Image src={image} alt='referance' width={image.width} height={image.height}/>
-      </div>
+      </Link>
     ))}
       
     </div>

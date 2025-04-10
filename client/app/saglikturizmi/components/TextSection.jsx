@@ -8,7 +8,7 @@ const TextSection = ({header,text,link}) => {
         <h4 className='text-[24px] lg:text-[32px] font-semibold text-darkGray leading-[40px]'>{header}</h4>
         <p className='max-w-[912px] text-[20px] lg:text-[24px] text-lightGray font-normal leading-[24px]'>{text}</p>
         {link && (
-           <p className='max-w-[912px] text-[20px] lg:text-[24px] text-lightGray font-normal leading-[24px]'> - CV'lerinizi  <Link href="info.alphaashley@gmail.com" className='hover:text-[#ff214f]'>info.alphaashley@gmail.com</Link>mail adresine gönderebilirsiniz.</p>
+           <p className='max-w-[912px] text-[20px] lg:text-[24px] text-lightGray font-normal leading-[24px]'> - CV'lerinizi  <Link  href="mailto:info.alphaashley@gmail.com" className='hover:text-[#ff214f]'>info.alphaashley@gmail.com{" "}</Link>mail adresine gönderebilirsiniz.</p>
         )}
       </div>
     </div>
