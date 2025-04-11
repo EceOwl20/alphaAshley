@@ -45,7 +45,7 @@ const Header2 = () => {
 
   return (
     <div
-      className={`flex fixed w-screen items-center justify-center  bg-white h-[66px] lg:h-[72px] transition-transform duration-300 z-[999] shadow-md ${headerClass}`}
+      className={`flex fixed w-screen items-center justify-center  bg-white h-[66px] lg:h-[72px] transition-transform duration-300 z-[999] shadow-md  ${headerClass}`}
     >
       <div className="flex items-center justify-between w-[95%]">
         <div className="flex items-center justify-center gap-[15px]">

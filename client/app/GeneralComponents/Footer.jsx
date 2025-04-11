@@ -21,7 +21,7 @@ const Footer = () => {
     }, []);
 
   return (
-    <div className="flex flex-col w-screen min-h-screen items-center justify-center bg-white '">
+    <div className="flex flex-col w-screen min-h-screen items-center justify-center bg-white overflow-hidden">
       {/* Section 1 */}
       <div className="flex flex-col md:grid md:grid-cols-2 lg:flex lg:flex-row w-[90%] lg:w-[80%] py-[40px] lg:py-[82px] items-center md:items-start justify-center md:justify-start text-start gap-[40px] text-lightGray">
         <div className="flex flex-col w-full lg:w-[25%] lg:max-w-[295px] items-center text-center justify-center md:items-start md:text-start md:justify-start gap-[25px]">
@@ -88,7 +88,7 @@ const Footer = () => {
         className={`flex w-screen py-[50px] lg:py-0 lg:w-[50%] bg-black items-center justify-center transform transition-all duration-700 ease-out ${
           animate ? "translate-x-0" : "translate-x-full"
         }`}>
-            <Image src={logoImg} alt="logo" width={480} height={589.16} className="w-[360px] h-[441.88px] lg:w-[480px] lg:h-[589.16px] mr-6"/>
+            <Image src={logoImg} alt="logo" width={480} height={589.16} className="w-[99%] h-[441.88px] lg:w-[480px] lg:h-[589.16px] "/>
         </div>
         <div
         className={`flex w-screen lg:w-[50%] items-center justify-center transform transition-all duration-700 ease-out ${
@@ -108,7 +108,7 @@ const Footer = () => {
            
               <a  href="https://wa.me/447538893032" 
   target="_blank" 
-  rel="noopener noreferrer" className='flex items-center justify-center bg-[#34A853] cursor-pointer p-[4px] rounded-md'>
+  rel="noopener noreferrer" className='flex items-center justify-center cursor-pointer '>
             <FaWhatsapp size={15} color='black'/>
         </a>
             
