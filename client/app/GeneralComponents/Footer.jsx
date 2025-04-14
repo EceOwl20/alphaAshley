@@ -127,8 +127,7 @@ const Footer = () => {
               {" "}
               <FaInstagram size={14}/>
             </Link>
-                <Link href="/" rel="norefferer nofollower"
-                  target="_blank" className="text-[#626262] text-[12px] font-roboto leading-[20px] font-normal hover:text-[#ff214f] cursor-pointer mx-[5px]"> Terms and Conditions</Link>
+                <Link href="/" className="text-[#626262] text-[12px] font-roboto leading-[20px] font-normal hover:text-[#ff214f] cursor-pointer mx-[5px]"> Terms and Conditions</Link>
                 <div className="flex h-[10px] w-[1px] bg-[#626262]"></div>
                 <Link href="/privacy-policy" className="text-[#626262] text-[12px] font-roboto leading-[20px] font-normal hover:text-[#ff214f] cursor-pointer ml-[5px]"> KVKK</Link>
             </div>
