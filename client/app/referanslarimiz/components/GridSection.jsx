@@ -22,13 +22,16 @@ import img20 from "@/public/images/referanslar/ref20.png"
 import img21 from "@/public/images/referanslar/ref21.png"
 import img23 from "@/public/images/referanslar/ref23.jpg"
 import img24 from "@/public/images/referanslar/ref24.png"
+import img25 from "@/public/images/referanslar/ref25.png"
+import img26 from "@/public/images/referanslar/ref26.png"
+import img27 from "@/public/images/referanslar/ref27.png"
 import Image from 'next/image'
 import Link from 'next/link'
 
-const images = [img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img15,img16,img17,img18,img19,img20,img21,img23,img24];
+const images = [img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img15,img16,img17,img18,img19,img20,img21,img23,img24,img25,img26,img27];
 const links = ["https://antalyasmiledesigns.com/","https://orisdentalturkey.com/","https://antalyasmiledesigns.com/","https://www.qualitypremium.dental/","https://ozdemirdentalcenter.com/","https://exclusivedentalturkey.com/","https://www.dentarmaturkey.com/tr/",
   "https://www.newerasmile.com/tr","https://dentprecious.com/","https://bronzedentalclinic.com/","https://www.andepol.com/","https://amazingsmileturkey.com/","https://www.thepearlclinicantalya.com/","https://goclinicturkey.com/",
-  "https://yalindentalclinic.com/tr/","https://www.ozeldenaclinic.com/tr","https://idclinictr.com/","https://www.umutdentalclinicantalya.com/en","https://oriondentalhealth.com/","https://www.ortodentclinic.com/en","https://cosmopolident.com/tr/","https://www.habitat-health.com/"
+  "https://yalindentalclinic.com/tr/","https://www.ozeldenaclinic.com/tr","https://idclinictr.com/","https://www.umutdentalclinicantalya.com/en","https://oriondentalhealth.com/","https://www.ortodentclinic.com/en","https://cosmopolident.com/tr/","https://www.habitat-health.com/","https://www.dentlaracity.com/","https://disleventinternational.com/","https://www.panoramikdis.com.tr/"
 ] 
 
 const GridSection = () => {
