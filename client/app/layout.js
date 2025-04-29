@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from './GeneralComponents/Header';
 import Header2 from './GeneralComponents/Header2';
 import Footer from './GeneralComponents/Footer';
+import CookiePopup from './cookies/components/CookiePopup';
 
 const inter = Montserrat({
   subsets: ['latin'],
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
           <Header/>
           <Header2/>
         {children}
+        <CookiePopup/>
         <Footer/>
       </body>
     </html>

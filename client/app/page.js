@@ -1,3 +1,4 @@
+import CookiePopup from "./cookies/components/CookiePopup";
 import Banner from "./Homepage/Banner";
 import BlogSection from "./Homepage/BlogSection";
 import GallerySection from "./Homepage/GallerySection";
