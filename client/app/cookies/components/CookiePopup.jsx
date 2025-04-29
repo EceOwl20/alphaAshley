@@ -28,8 +28,6 @@ const CookiePopup = () => {
   const [isVisible, setIsVisible] = useState(true);
     // hasMounted state'i ekliyoruz
     const [hasMounted, setHasMounted] = useState(false);
-
-
   const buttonsData = [
     { id: 0, label: "Çerez Politikası" },
     { id: 1, label: "Çerez Açıklama Metni" },
