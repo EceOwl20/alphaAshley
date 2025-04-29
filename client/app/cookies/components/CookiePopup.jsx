@@ -193,7 +193,7 @@ const CookiePopup = () => {
             />
           </div>
 
-          <h4 className="text-[16px] font-medium leading-[26.667px]">
+          <h4 className="text-[15px] lg:text-[16px] font-medium leading-[26.667px]">
           1. Zorunlu Çerezler
           </h4>
         </div>
@@ -233,7 +233,7 @@ const CookiePopup = () => {
               }`}
             />
           </div>
-          <h4 className="text-[16px] font-medium leading-[26.667px] ">
+          <h4 className="text-[15px] lg:text-[16px] font-medium leading-[26.667px] ">
           2. Pazarlama Çerezleri 
           </h4>
         </div>
@@ -273,7 +273,7 @@ const CookiePopup = () => {
               }`}
             />
           </div>
-          <h4 className="text-[16px] font-medium leading-[26.667px] ">
+          <h4 className="text-[15px] lg:text-[16px] font-medium leading-[26.667px] ">
           3. Analitik Çerezler
 
           </h4>
@@ -317,7 +317,7 @@ const CookiePopup = () => {
             />
           </div>
 
-          <h4 className="text-[16px] font-medium leading-[26.667px] ">
+          <h4 className="text-[15px] lg:text-[16px] font-medium leading-[26.667px] ">
           4. Fonksiyonel Çerezler
           </h4>
         </div>
@@ -584,8 +584,8 @@ Kişisel verilerinize ilişkin işbu haklarınızı <span className='font-semibo
                           onClick={() => setSelectedContent(index)}
                           className={
                             selectedContent === index
-                              ? "text-white text-[16px] font-roboto leading-normal font-medium w-[60%] max-w-[191px] cursor-pointer p-[10px] border-b  whitespace-nowrap  items-start justify-start text-start underline] h-[48px] lg:h-[37px]"
-                              : " text-[16px] font-roboto leading-normal font-medium text-[#A6A6A6] whitespace-nowrap cursor-pointer p-[10px] border-none items-start justify-start text-start h-[48px] lg:h-[37px]"}>
+                              ? "text-white text-[15px] lg:text-[16px] font-roboto leading-normal font-medium w-[60%] max-w-[191px] cursor-pointer p-[10px] border-b  whitespace-nowrap  items-start justify-start text-start underline] h-[48px] lg:h-[37px]"
+                              : " text-[15px] lg:text-[16px] font-roboto leading-normal font-medium text-[#A6A6A6] whitespace-nowrap cursor-pointer p-[10px] border-none items-start justify-start text-start h-[48px] lg:h-[37px]"}>
                           {buttonLabel}
                         </button>
                       ))}
@@ -605,8 +605,8 @@ Kişisel verilerinize ilişkin işbu haklarınızı <span className='font-semibo
                             onClick={() => setSelectedContent(button.id)}
                             className={
                               selectedContent === button.id
-                                ? "text-white text-[16px] font-roboto leading-normal font-medium w-fit cursor-pointer pt-[10px] px-[10px] border-b whitespace-nowrap items-start justify-start text-start h-[48px] lg:h-[37px]"
-                                : "text-[16px] font-roboto leading-normal font-medium text-[#A6A6A6] whitespace-nowrap cursor-pointer pt-[10px] px-[10px] border-none items-start justify-start text-start h-[48px] lg:h-[37px] w-fit"
+                                ? "text-white text-[15px] lg:text-[16px] font-roboto leading-normal font-medium w-fit cursor-pointer pt-[10px] px-[10px] border-b whitespace-nowrap items-start justify-start text-start h-[48px] lg:h-[37px]"
+                                : "text-[15px] lg:text-[16px] font-roboto leading-normal font-medium text-[#A6A6A6] whitespace-nowrap cursor-pointer pt-[10px] px-[10px] border-none items-start justify-start text-start h-[48px] lg:h-[37px] w-fit"
                             }
                           >
                             {button.label}
