@@ -3,7 +3,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='flex w-screen items-center justify-center'>
+    <div className='flex w-screen items-center justify-center overflow-hidden'>
       <div className='flex flex-col items-center justify-start text-center w-[92%] md:w-[80%] lg:w-[78%] lg:max-w-[1170px] py-20 lg:py-24'>
       <div className='flex w-[90%] lg:w-[60%] items-center justify-center mb-8 gap-[20px] md:gap-[10%]'>
           <Link href="/cookies" className="px-[18px] md:px-[34px] py-[6px] md:py-[9px] lg:min-w-[135px] bg-white mt-5 hover:bg-[#232323] border-[2px] border-[#232323] text-[#232323] hover:text-white text-[12px] md:text-[13px] leading-[25px] cursor-pointer font-semibold transition duration-300 ease-in-out uppercase tracking-[4px] font-montserrat whitespace-nowrap">Cookie Politikası</Link>

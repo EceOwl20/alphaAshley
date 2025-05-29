@@ -50,9 +50,9 @@ const Header2 = () => {
       <div className="flex items-center justify-between w-[95%]">
         <div className="flex items-center justify-center gap-[15px]">
           <Image src={logo} alt="logo" width={32} height={32} />
-          <h2 className="text-[18px] text-[#6F6F6F] font-bold">
+          <Link href="/" className="text-[18px] text-[#6F6F6F] font-bold font-roboto">
             Alpha Ashley Danışmanlık
-          </h2>
+          </Link>
         </div>
       {/* Mobil menü butonu sadece lg'de gizli */}
       <div className="lg:hidden">

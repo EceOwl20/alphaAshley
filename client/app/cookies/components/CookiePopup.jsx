@@ -532,7 +532,7 @@ Kişisel verilerinize ilişkin işbu haklarınızı <span className='font-semibo
         <div className="flex flex-col md:flex-row w-[94%] md:w-[99%] lg:w-[94%] xl:w-[80%] xl:max-w-[1270px] py-[25px] gap-[20px] font-montserrat text-center items-center justify-center text-[#FBFBFB] font-roboto">
           <p className="md:hidden text-[13px] lg:text-[14px] leading-[130%] text-[#FBFBFB] font-normal font-roboto text-center md:min-w-[39%] lg:w-[]">
             <span className="font-medium underline">Çerez Kullanıyoruz: </span>  İçeriği kişiselleştirmek ve web trafiğini analiz etmek için kendi ve üçüncü taraf çerezlerini kullanıyoruz.<br />
-            <Link href="/" className="font-medium underline">
+            <Link href="/cookies" className="font-medium underline">
             Daha fazlasını oku{" "}
             </Link>
             çerezler hakkında</p>
@@ -547,7 +547,7 @@ Kişisel verilerinize ilişkin işbu haklarınızı <span className='font-semibo
           </div>
           <div className="grid grid-cols-2 lg:flex lg:flex-row md:gap-[20px] xl:gap-[30px] w-full items-center justify-center gap-[13px] lg:gap-[1vw] mr-[2%]  ">
             <button
-              className="text-[13px] lg:text-[14px] leading-normal font-medium uppercase items-center justify-center text-center border-[#FBFBFB] border-[0.867px] whitespace-nowrap py-[10px] px-[20px] cursor-pointer  "
+              className="text-[13px] lg:text-[14px] leading-normal font-medium uppercase items-center justify-center text-center border-[#FBFBFB] border-[0.867px] whitespace-nowrap lg:px-[20px] py-[10px] cursor-pointer  "
               onClick={handleDenyAll}>
             Tüm Çerezleri Reddet
             </button>
