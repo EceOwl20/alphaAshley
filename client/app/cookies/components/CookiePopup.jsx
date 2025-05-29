@@ -539,7 +539,7 @@ Kişisel verilerinize ilişkin işbu haklarınızı <span className='font-semibo
           <div className="md:flex hidden text-[14px] leading-[130%] text-[#FBFBFB] font-normal font-roboto text-center xl:text-start sm:w-[45%] md:min-w-[38%] ml-[2%] ">
             <p>
               <span className="font-medium underline">Çerez Kullanıyoruz: </span> İçeriği kişiselleştirmek ve web trafiğini analiz etmek için kendi ve üçüncü taraf çerezlerini kullanıyoruz.
-              <Link href="/" className="font-medium underline">
+              <Link href="/cookies" className="font-medium underline">
               Daha fazlasını oku{" "}
               </Link>
               çerezler hakkında
