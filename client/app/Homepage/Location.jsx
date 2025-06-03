@@ -16,7 +16,7 @@ const Location = () => {
         
       </iframe> */}
 
-<iframe src="https://www.google.com/maps/d/u/1/embed?mid=1dWGKtCmU4NSv_CbrLUXGLqoYtj1Wi0E&ehbc=2E312F&noprof=1" width="100%" height="500"></iframe>
+<iframe src="https://www.google.com/maps/d/u/1/embed?mid=1dWGKtCmU4NSv_CbrLUXGLqoYtj1Wi0E&ehbc=2E312F" width="100%" height="500"></iframe>
 
      
     </div>
