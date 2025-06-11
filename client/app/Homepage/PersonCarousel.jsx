@@ -19,8 +19,9 @@ import img12 from "@/public/images/homepage/person12.png"
 import img13 from "@/public/images/homepage/person13.png"
 import img14 from "@/public/images/homepage/person14.png"
 import img15 from "@/public/images/homepage/person15.png"
+import img16 from "@/public/images/homepage/Laura.png"
 
-const images =[img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14,img15]
+const images =[img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14,img15,img16]
 
 const PersonCarousel = () => {
     const [emblaRef, emblaApi] = useEmblaCarousel({  loop: true,
