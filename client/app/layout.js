@@ -20,6 +20,11 @@ const roboto = Roboto({
 export const metadata = {
   title: "Alpha Ashley Danışmanlık",
   description: "Alpha Ashley Danışmanlık",
+    icons: {
+    icon: "/favicon.ico",          
+    shortcut: "/favicon.ico",
+    apple: "/apple-icon.png",     
+  },
 };
 
 export default function RootLayout({ children }) {
