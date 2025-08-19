@@ -3,8 +3,11 @@ import Link from 'next/link'
 import React from 'react'
 import { FaLinkedinIn,FaFacebookF,FaInstagram,FaWhatsapp } from "react-icons/fa";
 import { IoMdArrowDropdown } from "react-icons/io";
+import { useTranslations } from 'next-intl';
+import LangSwitcher from '@/LandSwitcher';
 
 const Header = () => {
+   const t = useTranslations('Header');
   const phoneNumber = '+447538893032';
   const whatsappUrl = `https://web.whatsapp.com/send?phone=${phoneNumber}`;
 
@@ -44,8 +47,9 @@ const Header = () => {
         <Link href="/videolar" className='text-[14px] uppercase font-normal leading-[24px]  cursor-pointer font-roboto'>VİDEOLAR</Link>
         <Link href="#iletisim" className='text-[14px] uppercase font-normal leading-[24px]  cursor-pointer font-roboto'>İLETİŞİM</Link>
         <div className='flex h-[10px] w-[1px] bg-[#757575]'></div>
-        <h4 className='text-[11px] font-normal  cursor-pointer'>TURKISH</h4>
-        <IoMdArrowDropdown />
+      
+          <LangSwitcher/>
+        
        </div>
       </div>
     </div>

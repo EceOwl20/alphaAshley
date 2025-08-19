@@ -11,8 +11,10 @@ import Form from "./Form";
 import logoImg from "@/public/images/alpha-ashey-logo.png"
 import Image from "next/image";
 import DgtlfaceSvg from "./DgtlfaceSvg";
+import { useTranslations } from "next-intl";
 
 const Footer = () => {
+   const t = useTranslations("Footer");
     const [animate, setAnimate] = useState(false);
 
     useEffect(() => {
@@ -26,10 +28,7 @@ const Footer = () => {
       <div className="flex flex-col md:grid md:grid-cols-2 lg:flex lg:flex-row w-[90%] lg:w-[80%] py-[40px] lg:py-[82px] items-center md:items-start justify-center md:justify-start text-start gap-[40px] text-lightGray">
         <div className="flex flex-col w-full lg:w-[25%] lg:max-w-[295px] items-center text-center justify-center md:items-start md:text-start md:justify-start gap-[25px]">
           <p className="text-[12px] font-roboto font-roboto font-normal leading-[20px]">
-            Sağlık Turizmi yetki belgenizde, kliniğinizin kapılarını
-            İngiltere'ye açmanın tam zamanı! Alpha Ashley Danışmanlık, yüz yüze
-            görüşmelerle İngiltere'deki hastalarınıza doğrudan ulaşma fırsatı
-            sunar.
+          {t("highlight")}
           </p>
           <div className="flex w-full gap-[10px] items-center justify-center md:items-start md:justify-start">
             <a rel="norefferer nofollower" href="https://wa.me/447538893032"
@@ -71,7 +70,7 @@ const Footer = () => {
 
         <div className="flex flex-col w-full md:w-[50%] lg:w-[25%] lg:max-w-[300px] items-center text-center md:items-start md:text-start  justify-center">
           <p className="text-[12px] font-montserrat font-semibold leading-[20px] uppercase text-darkGray mb-[15px]">
-            BİZİ ARAYIN
+            {t("callUs")}
           </p>
           <a href="tel:+905491961911" className="text-[12px] font-roboto font-normal leading-[20px]">
             TR No: +90 549 196 19 11

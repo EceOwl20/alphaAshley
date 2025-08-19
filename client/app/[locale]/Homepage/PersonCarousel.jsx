@@ -27,10 +27,12 @@ import img20 from "@/public/images/homepage/person20.jpeg"
 import img21 from "@/public/images/homepage/person21.jpeg"
 import img22 from "@/public/images/homepage/person22.png"
 import img23 from "@/public/images/homepage/person23.png"
+import { useTranslations } from "next-intl";
 
 const images =[img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14,img15,img16, img17, img18, img19, img20, img21, img22, img23]
 
 const PersonCarousel = () => {
+  const t = useTranslations("Homepage.BlogSection");
     const [emblaRef, emblaApi] = useEmblaCarousel({  loop: true,
         align: "start",
         startIndex: 0, },
@@ -99,7 +101,7 @@ const PersonCarousel = () => {
     />
   ))}
 </div>
- <Link href="/" className="flex text-[#242424] text-[13px] font-montserrat font-semibold transition duration-300 ease-in-out uppercase whitespace-nowrap border-[2px] border-[#242424] items-center justify-center bg-white hover:bg-[#242424] hover:text-white py-[9px] px-[34px] leading-[25px]">EKİPLE TANIŞIN</Link>
+ <Link href="/" className="flex text-[#242424] text-[13px] font-montserrat font-semibold transition duration-300 ease-in-out uppercase whitespace-nowrap border-[2px] border-[#242424] items-center justify-center bg-white hover:bg-[#242424] hover:text-white py-[9px] px-[34px] leading-[25px]">{t("meetTeam")}</Link>
 
       </div>
     </div>

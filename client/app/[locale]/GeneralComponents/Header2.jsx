@@ -4,13 +4,14 @@ import Image from "next/image";
 import logo from "@/public/images/alpha-logo.png";
 import Link from "next/link";
 import { IoMenu,IoClose } from "react-icons/io5";
-
+import { useTranslations } from "next-intl";
 
 const Header2 = () => {
   const [showHeader, setShowHeader] = useState(true);
   const [isNearTop, setIsNearTop] = useState(true);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const prevScrollY = useRef(0);
+   const t = useTranslations("Header");
   
   useEffect(() => {
     const handleScroll = () => {
@@ -66,13 +67,13 @@ const Header2 = () => {
         </div>
 
         <div className="hidden lg:flex items-center justify-center gap-[50px] text-[12px] text-[#232323] uppercase font-semibold font-montserrat">
-          <Link href="/">ANASAYFA</Link>
-          <Link href="/hakkimizda">HAKKIMIZDA</Link>
-          <Link href="/hizmetlerimiz">HİZMETLERİMİZ</Link>
-          <Link href="/saglikturizmi">SAĞLIK TURİZMİ</Link>
-          <Link href="/referanslarimiz">REFERANSLARIMIZ</Link>
-          <Link href="/blog">BLOG</Link>
-          <Link href="/insankaynaklari">İNSAN KAYNAKLARI</Link>
+           <Link href="/">{t("home")}</Link>
+      <Link href="/hakkimizda">{t("about")}</Link>
+      <Link href="/hizmetlerimiz">{t("services")}</Link>
+      <Link href="/saglikturizmi">{t("healthTourism")}</Link>
+      <Link href="/referanslarimiz">{t("references")}</Link>
+      <Link href="/blog">{t("blog")}</Link>
+      <Link href="/insankaynaklari">{t("hr")}</Link>
         </div>
       </div>
 

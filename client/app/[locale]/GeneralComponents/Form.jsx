@@ -1,7 +1,9 @@
 "use client";
 import { useState, useEffect } from "react";
+import { useTranslations } from "next-intl";
 
 const Form = () => {
+    const t = useTranslations("Footer");
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -34,8 +36,8 @@ const Form = () => {
     <div>
        <div className='flex flex-col w-screen lg:w-[50vw] lg:h-[70vh] items-center justify-center bg-white py-[20px]'>
         <div className='flex flex-col items-center justify-center gap-[5px] lg:gap-[25px] mb-[25px] lg:mb-[52px]'>
-            <h5 className='text-[#232323] font-bold text-[20px] lg:text-[32px] leading-[40px] uppercase'>BİZE ULAŞIN</h5>
-            <span className='text-[14px] leading-[24px] font-normal text-[#6F6F6F]'>Detaylar için hemen görüşelim.</span>
+            <h5 className='text-[#232323] font-bold text-[20px] lg:text-[32px] leading-[40px] uppercase'>  {t("contactUs")}</h5>
+            <span className='text-[14px] leading-[24px] font-normal text-[#6F6F6F]'>{t("formSubtitle")}</span>
         </div>
         <form onSubmit={handleSubmit}  className="flex flex-col gap-4 w-[90%] text-start items-center text-[12px] lg:text-[14px] font-montserrat">
       
@@ -45,7 +47,7 @@ const Form = () => {
           type="text"
           id="name"
           name="name"
-          placeholder="İsim soyad"
+          placeholder={t("nameSurname")}
           value={formData.name}
           onChange={handleChange}
           className="w-full px-[25px] py-[18px] border border-gray-300 text-black placeholder:text-[#808080]"
@@ -58,7 +60,7 @@ const Form = () => {
           type="tel"
           id="phone"
           name="phone"
-          placeholder="Telefon"
+          placeholder={t("phone")}
           value={formData.phone}
           onChange={handleChange}
           className="w-full px-[25px] py-[18px] border border-gray-300 text-black placeholder:text-[#808080]"
@@ -72,7 +74,7 @@ const Form = () => {
           type="email"
           id="email"
           name="email"
-           placeholder="Email"
+           placeholder={t("email")}
           value={formData.email}
           onChange={handleChange}
           className="w-full px-[25px] py-[18px] border border-gray-300 text-black placeholder:text-[#808080]"
@@ -84,7 +86,7 @@ const Form = () => {
         <input
           id="marka"
           name="marka"
-          placeholder="Marka"
+          placeholder={t("brand")}
           value={formData.marka}
           onChange={handleChange}
           className="w-full px-[25px] py-[18px] border border-gray-300 text-black placeholder:text-[#808080]"
@@ -98,7 +100,7 @@ const Form = () => {
         <textarea
           id="message"
           name="message"
-           placeholder="Mesaj"
+           placeholder={t("message")}
           value={formData.message}
           onChange={handleChange}
           className="w-full px-[25px] py-[18px] border border-gray-300 text-black placeholder:text-[#808080] h-[200px]"
@@ -106,7 +108,7 @@ const Form = () => {
         />
       </div>
       <button className="px-[34px] py-[9px] min-w-[135px] bg-white mt-5 hover:bg-[#232323] border-[2px] border-[#232323] text-[#232323] hover:text-white text-[13px] leading-[25px] cursor-pointer font-semibold transition duration-300 ease-in-out uppercase tracking-[5px] font-montserrat">
-        Gönder
+        {t("send")}
       </button>
     </form>
     </div>

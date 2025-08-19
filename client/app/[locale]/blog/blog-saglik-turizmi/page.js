@@ -1,6 +1,6 @@
 import React from 'react'
 import img2 from "@/public/images/homepage/blog-2.jpg"
-import SubBlogSection from "../../blog/components/SubBlogSection"
+import SubBlogSection from "../components/SubBlogSection"
 
 const array = [
     {

@@ -1,5 +1,5 @@
 import React from 'react'
-import Banner from '../hakkimizda/components/Banner'
+import Banner from '../[locale]/hakkimizda/components/Banner'
 import VideoGrid from './components/VideoGrid'
 
 const page = () => {

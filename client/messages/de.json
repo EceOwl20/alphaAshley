@@ -1,0 +1,62 @@
+{
+    "LocaleSwitcher": {
+      "label": "Sprache ändern",
+      "locale": "{locale, select, en {EN} tr {TR} de {DE} other {Unbekannt}}"
+    },
+
+    "Header":{
+     "home": "STARTSEITE",
+      "about": "ÜBER UNS",
+      "services": "UNSERE DIENSTLEISTUNGEN",
+      "healthTourism": "GESUNDHEITSTOURISMUS",
+      "references": "UNSERE REFERENZEN",
+      "blog": "BLOG",
+      "hr": "PERSONALABTEILUNG"
+  },
+
+  "Homepage": {
+    "Section2": {
+      "title": "Öffnen Sie die Türen Ihrer Klinik nach Großbritannien!",
+      "p1": "Alpha Ashley Consulting ist ein Beratungsunternehmen, das Gesundheitseinrichtungen einen End-to-End-Service für Medizintourismus bietet.",
+      "p2": "Es verwaltet alle Prozesse – von der Schulung des Verkaufspersonals im Medizintourismus bis zur Etablierung der digitalen Präsenz der Einrichtung; von der Entwicklung der Werbestrategie bis zur Verwaltung von Anzeigen in sozialen Medien und Suchmaschinen (SEO).",
+      "p3": "Im Gegensatz zu anderen Beratungsfirmen bietet es durch sein erfahrenes Vertriebsteam im Bereich Medizintourismus die Möglichkeit, mit Ihren internationalen Patienten Dental-Meetings abzuhalten – mit garantiertem Anstieg der Patientenzahl und Markenbekanntheit Ihrer Klinik.",
+      "p4": "Kontaktieren Sie uns jetzt für weitere Informationen."
+    },
+
+    "BlogSection": {
+      "meetTeam": "LERNEN SIE DAS TEAM KENNEN",
+      "videos": "VIDEOS",
+      "testimonials": "Unsere zufriedenen Partner",
+      "blogTitle": "Blog",
+      "blogSubtitle": "Wir haben für Sie recherchiert, analysiert und geschrieben",
+      "readMore": "Mehr erfahren",
+
+      "article1": {
+        "title": "Die Schönste Urlaubsstadt 2023: Antalya",
+        "description": "In den letzten Jahren hat die Türkei zunehmend an Beliebtheit im Gesundheitstourismus gewonnen. Mit ihrer natürlichen Schönheit, ihrem historischen Reichtum und ihren hochwertigen Gesundheitsdiensten zieht die Türkei Gesundheitstouristen aus aller Welt an. Was bietet die Türkei in diesem Bereich und welche staatlichen Förderungen gibt es? Mehr dazu:.."
+      },
+      "article2": {
+        "title": "Gesundheitstourismus in der Türkei: Ein Schatz, der entdeckt werden will",
+        "description": "Die Türkei ist bekannt für ihr reiches kulturelles Erbe, das viele Zivilisationen beherbergt hat, und rückt in letzter Zeit auch im Gesundheitstourismus in den Fokus. Wie groß ist das Potenzial und warum wird die Türkei zur bevorzugten Wahl?.."
+      },
+      "article3": {
+        "title": "Antalya entdecken: Gesundheitsdestination",
+        "description": "Antalya, entlang der traumhaften Mittelmeerküste gelegen, bietet nicht nur atemberaubende Natur, sondern auch vielfältige Gesundheits- und Wellness-Erlebnisse für alle, die Entspannung und Erneuerung suchen. Deshalb ist Antalya eine Gesundheits..."
+      }
+    }
+  },
+
+  "Footer":{
+     "highlight": "Mit Ihrer Zulassung im Gesundheitstourismus ist jetzt der perfekte Zeitpunkt, Ihre Klinik für Großbritannien zu öffnen! Alpha Ashley Consulting bietet Ihnen die Möglichkeit, Ihre Patienten in Großbritannien durch persönliche Gespräche direkt zu erreichen.",
+      "callUs": "RUFEN SIE UNS AN",
+      "contactUs": "KONTAKTIEREN SIE UNS HEUTE",
+      "formSubtitle": "Füllen Sie das Formular aus und nehmen Sie Kontakt auf",
+      "nameSurname": "Name Nachname",
+      "phone": "Telefon",
+      "email": "E-Mail",
+      "brand": "Marke / Firmenname",
+      "message": "Nachricht",
+      "send": "Senden"
+  }
+
+}

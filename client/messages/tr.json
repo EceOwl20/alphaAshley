@@ -1,0 +1,61 @@
+{
+    "LocaleSwitcher": {
+      "label": "Dili Değiştir",
+      "locale": "{locale, select, en {EN} tr {TR} de {DE} other {Bilinmeyen}}"
+    },
+
+    "Header":{
+    "home": "ANASAYFA",
+      "about": "HAKKIMIZDA",
+      "services": "HİZMETLERİMİZ",
+      "healthTourism": "SAĞLIK TURİZMİ",
+      "references": "REFERANSLARIMIZ",
+      "blog": "BLOG",
+      "hr": "İNSAN KAYNAKLARI"
+  },
+
+   "Homepage": {
+    "Section2": {
+      "title": "Kliniğinizin kapıları İngiltere'ye açılsın!",
+      "p1": "Alpha Ashley Danışmanlık, sağlık kuruluşlarına uçtan uca sağlık turizmi hizmetini sunan bir danışmanlık şirketidir.",
+      "p2": "Sağlık turizminde satış personelinin eğitiminden, kurumun dijital mecrada varlığının oluşturulmasına; reklam stratejisinin belirlenmesinden sosyal medya ve arama motorlarında (SEO) reklamlarının yönetilmesine kadar geçen tüm süreçlerin yönetimini sağlar.",
+      "p3": "Diğer danışmanlık şirketlerinden farkı, aynı zamanda sağlık turizmi alanında tecrübeli satış ekibi ile yurt dışındaki hastalarınızla dental meeting yapma imkanı sunarak, hasta sayısında ve klinik bilinirlik oranında garanti artış sağlamaktadır.",
+      "p4": "Detaylı bilgi için bizimle şimdi iletişime geçiniz."
+    },
+
+    "BlogSection": {
+      "meetTeam": "EKİPLE TANIŞIN",
+      "videos": "VİDEOLAR",
+      "testimonials": "Bizimle Çalışmaktan Mutlu Olanlar",
+      "blogTitle": "Blog",
+      "blogSubtitle": "Sizler için Araştırdık, İnceledik ve Yazdık",
+      "readMore": "Devamını Oku",
+
+      "article1": {
+        "title": "2023’ün En Harika Tatil Şehri: Antalya",
+        "description": "Türkiye, son yıllarda sağlık turizminde giderek artan bir popülerlik kazanmaktadır. Doğal güzellikleri, tarihi zenginlikleri ve yüksek kaliteli sağlık hizmetleri ile Türkiye, dünya genelinde sağlık turistlerinin dikkatini çekmektedir. Peki, Türkiye'de sağlık turizmi ne sunuyor ve bu alandaki devlet teşvikleri nelerdir? İşte bu konuda daha fazla bilgi:.."
+      },
+      "article2": {
+        "title": "Türkiye'de Sağlık Turizmi: Keşfedilmeyi Bekleyen Bir Hazine",
+        "description": "Türkiye, tarih boyunca farklı medeniyetlere ev sahipliği yapmış zengin kültürel mirasıyla tanınırken, son yıllarda sağlık turizmi alanında da dikkatleri üzerine çekiyor. Peki, Türkiye'nin bu alandaki potansiyeli nedir ve sağlık turizminde neden tercih edilmeye başlandı?.."
+      },
+      "article3": {
+        "title": "Antalya'yı Keşfetmek: Sağlık Destinasyonu",
+        "description": "Akdeniz'in muhteşem sahil şeridi boyunca yer alan Antalya, sadece nefes kesen doğal güzelliği ile değil, aynı zamanda yenilenme ve rahatlama arayan gezginler için çeşitli sağlık ve wellness deneyimleri sunmasıyla da dikkat çekiyor. İşte Antalya'nın neden sağlık..."
+      }
+    }
+  },
+
+  "Footer":{
+     "highlight": "Sağlık Turizmi yetki belgenizde, kliniğinizin kapılarını İngiltere'ye açmanın tam zamanı! Alpha Ashley Danışmanlık, yüz yüze görüşmelerle İngiltere'deki hastalarınıza doğrudan ulaşma fırsatı sunar.",
+      "callUs": "BİZİ ARAYIN",
+      "contactUs": "BİZE ULAŞIN",
+      "formSubtitle": "Formu doldurun ve şimdi iletişime geçin",
+      "nameSurname": "Ad Soyad",
+      "phone": "Telefon",
+      "email": "E-posta",
+      "brand": "Marka / Firma Adı",
+      "message": "Mesajınız",
+      "send": "Gönder"
+  }
+}

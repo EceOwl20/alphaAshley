@@ -1,0 +1,60 @@
+{   "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, en {EN} tr {TR} de {DE} other {Unknown}}"
+  
+  },
+
+  "Header":{
+     "home": "HOME",
+      "about": "ABOUT US",
+      "services": "OUR SERVICES",
+      "healthTourism": "HEALTH TOURISM",
+      "references": "OUR REFERENCES",
+      "blog": "BLOG",
+      "hr": "HUMAN RESOURCES"
+  },
+
+   "Homepage": {
+    "Section2": {
+      "title": "Let your clinic open its doors to the UK!",
+      "p1": "Alpha Ashley Consulting is a consultancy company offering end-to-end health tourism services to healthcare institutions.",
+      "p2": "It manages all processes from training sales staff in health tourism to establishing the institution's presence in digital media; from determining advertising strategies to managing ads on social media and search engines (SEO).",
+      "p3": "Unlike other consultancy companies, it guarantees an increase in patient numbers and clinic awareness by offering dental meetings with your international patients through its experienced sales team.",
+      "p4": "Contact us now for more information."
+    },
+     "BlogSection": {
+      "meetTeam": "MEET THE TEAM",
+      "videos": "VIDEOS",
+      "testimonials": "Those Who Are Happy to Work With Us",
+      "blogTitle": "Blog",
+      "blogSubtitle": "We Researched, Analyzed, and Wrote for You",
+      "readMore": "Read More",
+
+      "article1": {
+        "title": "The Most Wonderful Holiday City of 2023: Antalya",
+        "description": "In recent years, Turkey has gained increasing popularity in health tourism. With its natural beauty, historical richness, and high-quality healthcare services, Turkey attracts health tourists from all over the world. So what does Turkey offer in health tourism and what are the government incentives? Here's more info:.."
+      },
+      "article2": {
+        "title": "Health Tourism in Turkey: A Treasure Waiting to Be Discovered",
+        "description": "Known for its rich cultural heritage hosting many civilizations, Turkey has recently been drawing attention in health tourism as well. What is the potential in this field, and why has Turkey become a preferred destination?.."
+      },
+      "article3": {
+        "title": "Discovering Antalya: A Health Destination",
+        "description": "Located along the stunning Mediterranean coastline, Antalya stands out not only with its breathtaking beauty but also with the various health and wellness experiences it offers for those seeking relaxation and rejuvenation. Here's why Antalya is a health..."
+      }
+    }
+  },
+
+  "Footer":{
+     "highlight": "With your Health Tourism authorization certificate, now is the perfect time to open your clinic’s doors to the UK! Alpha Ashley Consulting offers you the opportunity to reach your patients in the UK directly through face-to-face meetings.",
+      "callUs": "CALL US",
+      "contactUs": "CONTACT US TODAY",
+      "formSubtitle": "Fill out the form and contact now",
+      "nameSurname": "Name Surname",
+      "phone": "Phone",
+      "email": "Email",
+      "brand": "Brand / Company Name",
+      "message": "Message",
+      "send": "Send"
+  }
+}

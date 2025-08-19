@@ -1,7 +1,9 @@
 "use client"
 import React, { useState, useEffect, useRef } from 'react'
+import { useTranslations } from "next-intl";
 
 const Videos = () => {
+  const t = useTranslations("Homepage.BlogSection");
   const containerRef = useRef(null);
   const [visible, setVisible] = useState(false);
 
@@ -27,10 +29,10 @@ const Videos = () => {
       <div className="flex flex-col w-[90%] lg:w-[70%] items-center justify-center text-center gap-[50px] lg:gap-[100px]">
         <div className="flex flex-col text-center items-center justify-center gap-[5px] font-montserrat">
           <h5 className="text-[#232323] text-[32px] mb-[15px] font-bold leading-[40px]">
-            VİDEOLAR
+            {t("videos")}
           </h5>
           <p className="text-[#939393] text-[12px] leading-[20px] font-medium ">
-            Bizimle Çalışmaktan Mutlu Olanlar
+            {t("testimonials")}
           </p>
           <div className="flex w-[100px] h-[1px] bg-[#FF214F]"></div>
         </div>
