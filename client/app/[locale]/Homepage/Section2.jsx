@@ -20,10 +20,10 @@ const Section2 = () => {
        <Form/>
       </div>
       
-      <div className={`flex w-[100%] lg:w-[50%] bg-[#1C1C1C] h-[420px] lg:h-[70vh] items-center justify-center transform transition-all duration-700 ease-out ${
+      <div className={`flex w-[100%] lg:w-[50%] bg-[#1C1C1C] h-[420px] lg:h-[70vh] items-center justify-center  min-h-[460px] transform transition-all duration-700 ease-out ${
           animate ? "translate-x-0" : "translate-x-full"
         }`}>
-        <div className='flex flex-col w-[92%] lg:w-[70%] gap-[25px] items-start justify-center text-satrt'>
+        <div className='flex flex-col w-[92%] lg:w-[70%] gap-[25px] items-start justify-center text-start'>
            <h5 className='text-[#D6D5D5] text-[20px] lg:text-[32px] leading-[40px] font-montserrat font-medium'>
             {t("title")}
           </h5>

@@ -18,8 +18,8 @@ const Header = () => {
 
   return (
     <div className='flex sticky w-screen bg-black h-[50px] text-white items-center justify-center z-[9999] max-w-screen'>
-      <div className='flex w-[90%] lg:w-[70%] items-center justify-between leading-normal'>
-       <div className='flex gap-[15px] items-center justify-center font-montserrat'>
+      <div className='flex w-[97%] lg:w-[70%] lg:min-w-[820px] items-center justify-between leading-normal'>
+       <div className='flex gap-[5px] sm:gap-[15px] items-center justify-center font-montserrat'>
         <Link href="https://www.linkedin.com/company/94114251/admin/feed/posts/" rel="norefferer nofollower"
                   target="_blank" className='hidden lg:flex'><FaLinkedinIn size={12}/></Link>
         <Link href="https://www.facebook.com/alphaashleydanismanlik" rel="norefferer nofollower"
@@ -36,6 +36,9 @@ const Header = () => {
           >
             info.alphaashley@gmail.com
           </a>
+         <div className='flex lg:hidden ml-1'>
+           <LangSwitcher/>
+         </div>
        </div>
 
        <div className='hidden lg:flex items-center justify-center gap-[15px]'>

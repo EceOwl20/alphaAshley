@@ -34,7 +34,7 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
     <div className="relative z-[9999]">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex flex-row items-center justify-center gap-2 rounded-md px-[10px] py-[10px] lg:py-4 font-medium mix-blend-difference bg-transparent uppercase w-full text-[14px] font-montserrat cursor-pointer"
+        className="flex flex-row items-center justify-center gap-[2px] lg:gap-2 rounded-md px-[10px] py-[10px] lg:py-4 font-medium mix-blend-difference bg-transparent uppercase w-full text-[12px] lg:text-[14px] font-montserrat cursor-pointer"
       >
         {label}
         <IoMdArrowDropdown color="#ffffff" />
@@ -47,7 +47,7 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
               return (
                 <li
                   key={child.props.value}
-                  className="cursor-pointer px-[3px] py-[6px] mt-0 bg-black text-white hover:bg-white hover:text-black text-center items-center justify-center uppercase font-montserrat"
+                  className="cursor-pointer px-[1px] lg:px-[3px] py-[4px] py-[6px] mt-0 bg-black text-white hover:bg-white hover:text-black text-center items-center justify-center uppercase font-montserrat text-[12px] lg:text-[14px]"
                   onClick={() => handleLangChange(child.props.value)}
                 >
                   {child.props.value}
