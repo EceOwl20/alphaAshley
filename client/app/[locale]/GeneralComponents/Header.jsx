@@ -44,8 +44,8 @@ const Header = () => {
   rel="noopener noreferrer" className='flex items-center justify-center bg-[#34A853] cursor-pointer p-[4px] rounded-md'>
             <FaWhatsapp size={25} color='black'/>
         </a>
-        <Link href="/videolar" className='text-[14px] uppercase font-normal leading-[24px]  cursor-pointer font-roboto'>VİDEOLAR</Link>
-        <Link href="#iletisim" className='text-[14px] uppercase font-normal leading-[24px]  cursor-pointer font-roboto'>İLETİŞİM</Link>
+        <Link href="/videolar" className='text-[14px] uppercase font-normal leading-[24px]  cursor-pointer font-roboto'>{t("videos")}</Link>
+        <Link href="#iletisim" className='text-[14px] uppercase font-normal leading-[24px]  cursor-pointer font-roboto'>{t("contact")}</Link>
         <div className='flex h-[10px] w-[1px] bg-[#757575]'></div>
       
           <LangSwitcher/>

@@ -48,7 +48,7 @@ export default async function RootLayout({ children, params }) {
   return (
     <html lang={locale}>
       <body
-        className={`${inter.variable} ${roboto.variable} `}>
+        className={`${inter.variable} ${roboto.variable} overflow-x-hidden`}>
            <NextIntlClientProvider locale={locale} messages={messages}>
           <Header/>
           <Header2/>
