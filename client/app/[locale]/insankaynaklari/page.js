@@ -3,7 +3,7 @@ import Banner from '../hakkimizda/components/Banner'
 import TextSection from '../saglikturizmi/components/TextSection'
 import { useTranslations } from "next-intl";
 
-const page = () => {
+const Page = () => {
    const t = useTranslations("HumanResourcesPage");
 
   return (
@@ -14,4 +14,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

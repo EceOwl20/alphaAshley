@@ -3,7 +3,7 @@ import img4 from "@/public/images/homepage/blog-4.jpg"
 import SubBlogSection from "../components/SubBlogSection"
 import { useTranslations } from "next-intl";
 
-const page = () => {
+const Page = () => {
     const t = useTranslations("BlogAntalyaWellness");
     const array = t.raw("items"); 
     
@@ -14,4 +14,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
