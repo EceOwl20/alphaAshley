@@ -57,5 +57,66 @@
       "brand": "Marka / Firma Adı",
       "message": "Mesajınız",
       "send": "Gönder"
+  },
+
+  "AboutPage": {
+  
+      "title": "HAKKIMIZDA",
+      "description": "Alpha Ashley Danışmanlık, sağlık sektöründe faaliyet gösteren firmalara stratejik danışmanlık hizmetleri sunan öncü bir kuruluştur. Sağlık turizmi alanında uzmanlaşmış olan şirketimiz, müşterilerimize yenilikçi çözümler ve sektördeki en güncel bilgi birikimini sağlayarak, onların başarılarını artırmaya odaklanmaktadır. Global sağlık pazarındaki dinamikleri yakından takip eden deneyimli ekibimiz, müşteri odaklı yaklaşımıyla iş ortaklarımıza stratejik yönlendirme, pazar araştırması, rekabet analizi ve operasyonel destek gibi kapsamlı hizmetler sunmaktadır. Alpha Ashley Danışmanlık, sektördeki değişen ihtiyaçlara hızlı ve etkili çözümler sunarak müşterilerinin rekabet avantajını artırmayı hedeflemektedir. Rekabetin fazla olduğu sağlık sektöründe, reklamların yetersiz kaldığı noktada kliniğinizin İngiltere’de ve Avrupa’da potansiyel hastalarına direkt ulaşmasını istiyorsanız, sizleri de hemen görüşmeye davet ediyoruz. Kliniğiniz için dental meeting paketleri hakkında bugün daha fazla bilgi alın."
+    
+  },
+
+   "HealthTourismPage": {
+  
+      "title": "Sağlık Turizmi",
+      "description": "Sağlık turizmi, dünya genelinde hızla büyüyen ve giderek daha fazla insanın tercih ettiği bir seyahat ve tedavi biçimi haline gelmektedir. Alpha Ashley Danışmanlık olarak, sağlık turizmi sektöründe yer alan tesisler, hastaneler, klinikler ve sağlık hizmeti sağlayıcıları için stratejik planlama, pazar araştırması ve operasyonel destek gibi alanlarda danışmanlık hizmetleri sunuyoruz. Sunduğumuz çözümler, müşterilerimizin uluslararası pazarda rekabet edebilirliğini artırmak, hedef kitlelerine ulaşmak ve kaliteli sağlık hizmetlerini etkili bir şekilde sunmak için tasarlanmıştır. Sağlık turizmi sektöründeki deneyimimiz ve uzmanlığımızla, müşterilerimizin başarılı olmalarına yardımcı olmak için çalışıyoruz ve bu alanda gelecekteki büyüme ve fırsatları yakalamalarına destek sağlıyoruz."
+    
+  },
+
+     "HumanResourcesPage": {
+    
+      "title": "İnsan Kaynakları",
+      "description": "Alpha Ashley Danışmanlık olarak, insan kaynakları alanında sunduğumuz hizmetlerle, şirketlerin yetenek yönetimi süreçlerini en etkin şekilde yönetmelerine yardımcı oluyoruz. İnsan odaklı yaklaşımımızla, doğru adayları doğru pozisyonlarla buluşturuyor, çalışan memnuniyeti ve verimliliğini artırmayı hedefliyoruz. İK stratejilerimizi, şirketlerin ihtiyaçlarına göre özelleştiriyor ve uzun vadeli başarıyı destekleyen çözümler sunuyoruz.",
+      "note": "CV'lerinizi bu mail adresine gönderebilirsiniz:"
+    
+  },
+
+   "ServicesPage": {
+    
+      "meetingTitle": "YURT DIŞI MEETING HİZMETLERİ",
+      "meetingP1": "Alpha Ashley Danışmanlık sizlere Full Paket Meeting Programı sayesinde hastalarınızla yurt dışında buluşma ve kaliteli satış olanağı sağlamaktadır. Sağlık turizmi alanındaki uzman kadromuzla kliniğinizin kapılarını Avrupa'ya açıyoruz!",
+      "meetingP2": "- İngiltere'de ve Avrupa’da Meeting yapılacak otellerin ayarlanması",
+      "meetingP3": "- Sağlık Turizmi alanında anadili İngilizce uzman satış personeli desteğinin sağlanması",
+      "meetingP4": "- Kliniğinizin en iyi şekilde tanıtılması",
+      "meetingP5": "- Yasal evrakların ve dosyaların hazırlanmasını sağlıyoruz.Detaylar için bizlerle iletişime geçebilirsiniz.",
+
+      "salesTitle": "SATIŞ PERSONELİ EĞİTİMİ",
+      "salesP1": "Alpha Ashley, sağlık sektöründeki satış personellerinin eğitimine odaklanan öncü bir danışmanlık şirketidir. Şirket, sağlık sektöründeki satış faaliyetleri konusunda uzmanlaşmış bir ekip tarafından yönetilmektedir.",
+      "salesP2": "Alpha Ashley, sağlık kuruluşlarının satış personellerinin en iyi şekilde eğitilmesini sağlamak için özelleştirilmiş çözümler sunar. Şirket, satış personellerinin müşteri odaklı bir yaklaşım benimsemesini ve müşteri memnuniyetini artırmak için etkili iletişim stratejileri geliştirmelerini sağlar.",
+      "salesP3": "Alpha Ashley'nin sağlık sektöründeki müşterileri arasında hastaneler, klinikler ve sağlık merkezleri bulunmaktadır. Şirket, müşterilerinin ihtiyaçlarını anlamak için bir araştırma ve analiz süreci uygular ve eğitim programlarını bu ihtiyaçlara göre tasarlar.",
+      "salesP4": "Alpha Ashley, sağlık sektöründeki satış personellerinin eğitimi konusunda uzmanlaşmış bir danışmanlık şirketi olarak, müşterilerinin başarısını en üst düzeye çıkarmak için çalışır. Şirket, müşterilerine özel çözümler sunarak, satış personellerinin performansını artırmak ve işletmelerinin büyümesine katkıda bulunmak için çalışır.",
+      "detailsLink": "Detaylar için bizlerle iletişime geçebilirsiniz.",
+
+      "marketingTitle": "DİJİTAL PAZARLAMA",
+      "marketingP1": "Alpha Ashley, sağlık sektöründeki kuruluşlara dijital pazarlama konusunda uzman danışmanlık hizmetleri sunmaktadır. Şirket, sosyal medya platformlarındaki reklam kampanyalarının tasarımı, yönetimi ve optimizasyonu, Google reklamlarının yönetimi konularında müşterilerine destek vermektedir. Alpha Ashley, müşterilerinin ihtiyaçlarına özel çözümler sunar ve işletmelerinin dijital pazarlama stratejilerinin başarısını en üst düzeye çıkarmayı hedefler.",
+      "marketingP2": "Alpha Ashley'nin sağlık sektöründeki müşteri portföyü oldukça geniştir ve hastaneler, klinikler ve diğer sağlık kuruluşlarını kapsar. Şirket, müşterilerinin ihtiyaçlarına özel olarak tasarlanmış çözümler sunar ve onların dijital pazarlama stratejilerinin başarısını en üst düzeye çıkarmak için çalışır.",
+
+      "promotionTitle": "YURT DIŞI TANITIM HİZMETLERİ",
+      "promotionP1": "Alpha Ashley çok yönlü bir danışmanlık şirketidir ve aynı zamanda sağlık sektöründeki kuruluşlara reklam danışmanlığı hizmetleri sunan bir şirkettir. Şirket, müşterilerinin yurt içi ve yurt dışı tanıtımlarını, televizyon, toplu taşıma araçları, radyo, dergi, gazete gibi farklı mecralarda gerçekleştirerek, müşterilerinin markalarını daha geniş kitlelere ulaştırmalarını sağlar. Alpha Ashley'nin uzman ekibi, müşterilerine en iyi stratejileri önererek, reklam kampanyalarının tasarımı, planlaması ve yürütülmesi konularında destek verir."
+    
+  },
+
+  "BlogPage": {
+    "BlogGrid": {
+     "readMore": "Devamını Oku",
+      "blog1Title": "2023’ün En Harika Tatil Şehri: Antalya",
+      "blog1Description": "Antalya, Türkiye'nin güney kıyısında yer alan bir tatil cennetidir. ...",
+      "blog2Title": "Türkiye'de Sağlık Turizmi: Keşfedilmeyi Bekleyen Bir Hazine",
+      "blog2Description": "Türkiye, tarih boyunca farklı medeniyetlere ev sahipliği yapmış ...",
+      "blog3Title": "Antalya'yı Keşfetmek: Sağlık Destinasyonua",
+      "blog3Description": "Akdeniz'in muhteşem sahil şeridi boyunca yer alan Antalya, ...",
+      "blog4Title": "Türkiye'de Sağlık Turizmi: İyileşme ve Keşif İçin Mükemmel Bir Durak",
+      "blog4Description": "Türkiye, son yıllarda sağlık turizminde giderek artan bir popülerlik ..."
+    }
   }
 }

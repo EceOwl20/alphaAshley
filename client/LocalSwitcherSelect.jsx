@@ -40,14 +40,14 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
         <IoMdArrowDropdown color="#ffffff" />
       </button>
       {isOpen && (
-        <div className="absolute z-50 mt-0 rounded bg-black shadow-lg left-0 w-full ">
+        <div className="absolute z-50 mt-0 rounded bg-black shadow-lg left-0 w-full text-white">
           <ul className="py-0">
             {React.Children.map(children, (child) => {
               if (child.props.value === defaultValue) return null;
               return (
                 <li
                   key={child.props.value}
-                  className="cursor-pointer px-[6px] py-[8px] mt-0 hover:bg-white hover:text-black text-center items-center justify-center uppercase"
+                  className="cursor-pointer px-[3px] py-[6px] mt-0 bg-black text-white hover:bg-white hover:text-black text-center items-center justify-center uppercase font-montserrat"
                   onClick={() => handleLangChange(child.props.value)}
                 >
                   {child.props.value}

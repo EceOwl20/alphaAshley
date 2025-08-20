@@ -56,5 +56,67 @@
       "brand": "Brand / Company Name",
       "message": "Message",
       "send": "Send"
+  },
+
+   "AboutPage": {
+   
+      "title": "ABOUT US",
+      "description": "Alpha Ashley Consulting is a leading organization offering strategic consultancy services to companies operating in the healthcare sector. Specializing in health tourism, our company focuses on increasing our clients' success by providing innovative solutions and the most up-to-date knowledge in the industry. Our experienced team closely follows the dynamics of the global healthcare market and offers strategic guidance, market research, competitive analysis, and operational support through a customer-centric approach. Alpha Ashley Consulting aims to enhance its clients’ competitive advantage by delivering fast and effective solutions tailored to the changing needs of the sector. If you want your clinic to directly reach potential patients in the UK and Europe where advertising is often insufficient, we invite you to schedule a meeting today. Learn more about our dental meeting packages for your clinic."
+    
+  },
+
+  "HealthTourismPage": {
+    
+      "title": "Health Tourism",
+      "description": "Health tourism is a rapidly growing form of travel and treatment that is increasingly preferred by people around the world. At Alpha Ashley Consulting, we provide consultancy services in areas such as strategic planning, market research, and operational support for facilities, hospitals, clinics, and healthcare providers operating in the health tourism sector. Our solutions are designed to increase our clients' competitiveness in international markets, reach their target audiences, and deliver high-quality healthcare services effectively. With our experience and expertise in the health tourism industry, we work to help our clients succeed and support them in seizing future growth and opportunities in this field."
+    
+  },
+
+   "HumanResourcesPage": {
+ 
+      "title": "Human Resources",
+      "description": "At Alpha Ashley Consulting, we help companies manage their talent management processes in the most effective way through the human resources services we offer. With our people-oriented approach, we aim to match the right candidates with the right positions and increase employee satisfaction and productivity. We tailor our HR strategies to the specific needs of each company and provide solutions that support long-term success.",
+      "note": "You can send your CV to "
+    
+  },
+
+  "ServicesPage": {
+   
+      "meetingTitle": "INTERNATIONAL MEETING SERVICES",
+      "meetingP1": "With the Full Package Meeting Program, Alpha Ashley Consulting offers you the opportunity to meet your patients abroad and make quality sales. With our expert team in health tourism, we open the doors of your clinic to Europe!",
+      "meetingP2": "- Arrangement of hotels for meetings in the UK and Europe",
+      "meetingP3": "- Support from native English-speaking expert sales personnel in health tourism",
+      "meetingP4": "- Best representation and promotion of your clinic",
+      "meetingP5": "- We prepare all legal documents and files. Contact us for more details.",
+
+      "salesTitle": "SALES PERSONNEL TRAINING",
+      "salesP1": "Alpha Ashley is a pioneering consulting company focusing on the training of sales personnel in the healthcare industry. The company is managed by a team specialized in healthcare sales operations.",
+      "salesP2": "Alpha Ashley provides tailored solutions to ensure the best training for healthcare organizations’ sales staff. The company helps them adopt a customer-oriented approach and develop effective communication strategies to increase satisfaction.",
+      "salesP3": "Its clients include hospitals, clinics, and healthcare centers. The company designs training programs based on a thorough research and analysis process tailored to each client’s needs.",
+      "salesP4": "As a company specializing in sales training for the healthcare sector, Alpha Ashley works to maximize client success by offering customized solutions to enhance staff performance and drive business growth.",
+      "detailsLink": "Contact us for more details.",
+
+      "marketingTitle": "DIGITAL MARKETING",
+      "marketingP1": "Alpha Ashley offers expert digital marketing consultancy services to organizations in the healthcare sector. It supports clients in designing, managing, and optimizing ad campaigns on social media platforms, and managing Google Ads. The company provides customized solutions to maximize the success of digital marketing strategies.",
+      "marketingP2": "Alpha Ashley's healthcare client portfolio is extensive, including hospitals, clinics, and other medical institutions. It works to design customized solutions that increase the success of their marketing strategies.",
+
+      "promotionTitle": "INTERNATIONAL PROMOTION SERVICES",
+      "promotionP1": "Alpha Ashley is a versatile consulting company that also offers advertising consultancy services to healthcare organizations. It helps clients promote their brand locally and internationally through TV, public transport, radio, magazines, and newspapers. The expert team provides support in planning and executing ad campaigns with the most effective strategies."
+    
+  },
+
+  "BlogPage": {
+    "BlogGrid": {
+      "readMore": "Read More",
+      "blog1Title": "The Best Holiday City of 2023: Antalya",
+      "blog1Description": "Antalya is a holiday paradise located on the southern coast of Turkey. ...",
+      "blog2Title": "Health Tourism in Turkey: A Hidden Treasure Waiting to Be Discovered",
+      "blog2Description": "Turkey, with its rich cultural heritage shaped by many civilizations throughout history, ...",
+      "blog3Title": "Discovering Antalya: A Health Destination",
+      "blog3Description": "Situated along the stunning Mediterranean coast, Antalya ...",
+      "blog4Title": "Health Tourism in Turkey: A Perfect Stop for Healing and Discovery",
+      "blog4Description": "In recent years, Turkey has been gaining popularity in health tourism ..."
+    
+    }
   }
 }

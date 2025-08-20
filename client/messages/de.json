@@ -57,6 +57,68 @@
       "brand": "Marke / Firmenname",
       "message": "Nachricht",
       "send": "Senden"
+  },
+
+  "AboutPage": {
+      "title": "ÜBER UNS",
+      "description": "Alpha Ashley Consulting ist ein führendes Unternehmen, das strategische Beratungsdienste für Firmen im Gesundheitssektor anbietet. Unser Unternehmen ist auf den Gesundheitstourismus spezialisiert und konzentriert sich darauf, den Erfolg unserer Kunden durch innovative Lösungen und aktuelles Branchenwissen zu steigern. Unser erfahrenes Team verfolgt die Dynamik des globalen Gesundheitsmarktes genau und bietet mit einem kundenorientierten Ansatz umfassende Leistungen wie strategische Beratung, Marktforschung, Wettbewerbsanalyse und operative Unterstützung. Alpha Ashley Consulting hat sich zum Ziel gesetzt, seinen Kunden durch schnelle und effektive Lösungen einen Wettbewerbsvorteil zu verschaffen. Wenn Sie möchten, dass Ihre Klinik potenzielle Patienten in Großbritannien und Europa direkt erreicht, wo Werbung oft nicht ausreicht, laden wir Sie herzlich zu einem Gespräch ein. Erfahren Sie noch heute mehr über unsere Dental-Meeting-Pakete für Ihre Klinik."
+    
+  },
+
+   "HealthTourismPage": {
+
+      "title": "Gesundheitstourismus",
+      "description": "Der Gesundheitstourismus ist eine schnell wachsende Form des Reisens und der Behandlung, die weltweit von immer mehr Menschen bevorzugt wird. Alpha Ashley Consulting bietet Beratungsleistungen in Bereichen wie strategische Planung, Marktforschung und operative Unterstützung für Einrichtungen, Krankenhäuser, Kliniken und Gesundheitsdienstleister im Bereich Gesundheitstourismus an. Unsere Lösungen sind darauf ausgelegt, die Wettbewerbsfähigkeit unserer Kunden auf dem internationalen Markt zu steigern, ihre Zielgruppen zu erreichen und hochwertige Gesundheitsdienstleistungen effektiv zu erbringen. Mit unserer Erfahrung und Expertise im Bereich Gesundheitstourismus unterstützen wir unsere Kunden dabei, erfolgreich zu sein und zukünftige Wachstumschancen in diesem Bereich zu nutzen."
+    
+  },
+
+  "HumanResourcesPage": {
+   
+      "title": "Personalabteilung",
+      "description": "Bei Alpha Ashley Consulting unterstützen wir Unternehmen dabei, ihre Talentmanagementprozesse durch unsere Dienstleistungen im Bereich Personalwesen möglichst effektiv zu gestalten. Mit unserem menschenorientierten Ansatz bringen wir die richtigen Kandidaten mit den richtigen Positionen zusammen und streben eine höhere Mitarbeiterzufriedenheit und Produktivität an. Wir passen unsere HR-Strategien individuell an die Bedürfnisse der Unternehmen an und bieten Lösungen, die den langfristigen Erfolg unterstützen.",
+      "note": "Bitte senden Sie Ihren Lebenslauf an "
+    
+  },
+
+  "ServicesPage": {
+   
+      "meetingTitle": "INTERNATIONALE MEETING-DIENSTLEISTUNGEN",
+      "meetingP1": "Mit dem Full Package Meeting-Programm bietet Alpha Ashley Consulting die Möglichkeit, Patienten im Ausland zu treffen und hochwertige Verkaufsgespräche zu führen. Mit unserem Expertenteam im Bereich Medizintourismus öffnen wir die Türen Ihrer Klinik nach Europa!",
+      "meetingP2": "- Organisation von Hotels für Meetings in Großbritannien und Europa",
+      "meetingP3": "- Unterstützung durch englischsprachige Experten im Bereich Gesundheitstourismus",
+      "meetingP4": "- Professionelle Präsentation Ihrer Klinik",
+      "meetingP5": "- Wir kümmern uns um die Vorbereitung aller rechtlichen Dokumente. Kontaktieren Sie uns für Details.",
+
+      "salesTitle": "VERKAUFSPERSONALSCHULUNG",
+      "salesP1": "Alpha Ashley ist ein führendes Beratungsunternehmen, das sich auf die Schulung von Verkaufspersonal im Gesundheitswesen spezialisiert hat. Das Unternehmen wird von einem Team geleitet, das auf Verkaufsprozesse im Gesundheitsbereich spezialisiert ist.",
+      "salesP2": "Alpha Ashley bietet maßgeschneiderte Lösungen für die optimale Schulung von Vertriebsmitarbeitern im Gesundheitswesen. Das Unternehmen fördert eine kundenorientierte Herangehensweise und hilft, effektive Kommunikationsstrategien zu entwickeln.",
+      "salesP3": "Zu den Kunden von Alpha Ashley zählen Krankenhäuser, Kliniken und Gesundheitszentren. Das Unternehmen analysiert die Bedürfnisse seiner Kunden und entwickelt individuelle Schulungsprogramme.",
+      "salesP4": "Als auf Verkaufsschulungen spezialisiertes Beratungsunternehmen hilft Alpha Ashley seinen Kunden, maximale Erfolge zu erzielen und das Wachstum ihres Unternehmens zu fördern.",
+      "detailsLink": "Kontaktieren Sie uns für weitere Informationen.",
+
+      "marketingTitle": "DIGITALES MARKETING",
+      "marketingP1": "Alpha Ashley bietet Gesundheitsorganisationen professionelle Beratungsdienste im Bereich digitales Marketing. Dazu gehören die Gestaltung, Verwaltung und Optimierung von Werbekampagnen auf sozialen Medien sowie die Verwaltung von Google-Anzeigen. Alpha Ashley liefert individuelle Lösungen zur Maximierung des Erfolgs digitaler Strategien.",
+      "marketingP2": "Alpha Ashleys Kundenstamm im Gesundheitswesen ist breit gefächert und umfasst Krankenhäuser, Kliniken und weitere Einrichtungen. Das Unternehmen passt seine Lösungen individuell an die Bedürfnisse an und arbeitet daran, die Strategien der Kunden zum Erfolg zu führen.",
+
+      "promotionTitle": "INTERNATIONALE WERBUNG",
+      "promotionP1": "Alpha Ashley ist ein vielseitiges Beratungsunternehmen und bietet zudem Werbedienstleistungen für Organisationen im Gesundheitsbereich. Es unterstützt Kunden bei der Werbung im In- und Ausland über Fernsehen, öffentliche Verkehrsmittel, Radio, Zeitschriften und Zeitungen. Das Expertenteam entwickelt Strategien, plant und setzt Kampagnen effektiv um."
+    
+  },
+
+   "BlogPage": {
+    "BlogGrid": {
+      "readMore": "Mehr erfahren",
+      "blog1Title": "Die schönste Urlaubsstadt 2023: Antalya",
+      "blog1Description": "Antalya ist ein Urlaubsparadies an der Südküste der Türkei. ...",
+      "blog2Title": "Gesundheitstourismus in der Türkei: Ein verborgener Schatz, der entdeckt werden will",
+      "blog2Description": "Die Türkei, mit ihrem reichen kulturellen Erbe aus vielen Zivilisationen, ...",
+      "blog3Title": "Antalya entdecken: Ein Gesundheitsziel",
+      "blog3Description": "Entlang der wunderschönen Mittelmeerküste gelegen, bietet Antalya ...",
+      "blog4Title": "Gesundheitstourismus in der Türkei: Ein perfekter Ort für Heilung und Entdeckung",
+      "blog4Description": "In den letzten Jahren hat die Türkei im Gesundheitstourismus immer mehr an Beliebtheit gewonnen ..."
+    }
   }
+
+
 
 }

@@ -17,7 +17,7 @@ const Header = () => {
   };
 
   return (
-    <div className='flex sticky w-screen bg-black h-[50px] text-white items-center justify-center z-[999] overflow-x-hidden max-w-screen'>
+    <div className='flex sticky w-screen bg-black h-[50px] text-white items-center justify-center z-[9999] max-w-screen'>
       <div className='flex w-[90%] lg:w-[70%] items-center justify-between leading-normal'>
        <div className='flex gap-[15px] items-center justify-center font-montserrat'>
         <Link href="https://www.linkedin.com/company/94114251/admin/feed/posts/" rel="norefferer nofollower"
