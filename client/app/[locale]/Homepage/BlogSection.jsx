@@ -30,8 +30,8 @@ const BlogSection = () => {
   }, []);
 
   return (
-    <div ref={containerRef} className="flex w-screen items-center justify-center my-[100px]">
-      <div className="flex flex-col w-[90%] lg:w-[70%] max-w-[1200px] items-center justify-center gap-[50px] lg:gap-[100px]">
+    <div ref={containerRef} className="flex w-screen items-center justify-center my-[50px] lg:my-[100px]">
+      <div className="flex flex-col w-[90%] xl:w-[70%] max-w-[1200px] items-center justify-center gap-[50px] lg:gap-[100px]">
         <div className="flex flex-col text-center items-center justify-center gap-[5px] font-montserrat">
           <h5 className="text-[#232323] text-[32px] mb-[15px] font-bold leading-[40px]">
             {t("blogTitle")}
