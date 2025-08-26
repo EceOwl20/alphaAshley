@@ -10,6 +10,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import Script from "next/script";
 import PixelRouteTracker from "./GeneralComponents/PixelRouteTracker"; 
+import { Suspense } from "react";
 
 const inter = Montserrat({
   subsets: ['latin'],
@@ -87,7 +88,9 @@ export default async function RootLayout({ children, params }) {
           <Header/>
           <Header2/>
         
-        <PixelRouteTracker />
+       <Suspense fallback={null}>
+            <PixelRouteTracker />
+          </Suspense>
         {children}
         <CookiePopup/>
         <Footer/>
