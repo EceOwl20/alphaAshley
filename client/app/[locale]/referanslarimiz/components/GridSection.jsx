@@ -1,6 +1,6 @@
 "use client"
 import React, { useState, useEffect, useRef } from 'react'
-import img1 from "@/public/images/referanslar/ref1.png"
+
 import img2 from "@/public/images/referanslar/ref2.png"
 import img3 from "@/public/images/referanslar/ref3.png"
 import img4 from "@/public/images/referanslar/ref4.png"
@@ -25,13 +25,14 @@ import img24 from "@/public/images/referanslar/ref24.png"
 import img25 from "@/public/images/referanslar/ref25.png"
 // import img26 from "@/public/images/referanslar/ref26.png"
 import img27 from "@/public/images/referanslar/ref27.png"
+import img28 from "@/public/images/referanslar/ref28.png"
 import Image from 'next/image'
 import Link from 'next/link'
 
-const images = [img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img15,img16,img17,img18,img19,img20,img21,img24,img25,img27];
-const links = ["https://antalyasmiledesigns.com/","https://orisdentalturkey.com/","https://antalyasmiledesigns.com/","https://www.qualitypremium.dental/","https://ozdemirdentalcenter.com/","https://exclusivedentalturkey.com/","https://www.dentarmaturkey.com/tr/",
-  "https://www.newerasmile.com/tr","https://dentprecious.com/","https://bronzedentalclinic.com/","https://www.andepol.com/","https://amazingsmileturkey.com/","https://goclinicturkey.com/",
-  "https://yalindentalclinic.com/tr/","https://www.ozeldenaclinic.com/tr","https://idclinictr.com/","https://www.umutdentalclinicantalya.com/en","https://oriondentalhealth.com/","https://www.ortodentclinic.com/en","https://www.habitat-health.com/","https://www.dentlaracity.com/","https://www.panoramikdis.com.tr/"
+const images = [img2,img3,img4,img5,img7,img8,img9,img10,img11,img12,img15,img16,img17,img18,img19,img20,img21,img24,img25,img27, img28];
+const links = ["https://orisdentalturkey.com/","https://antalyasmiledesigns.com/","http://qpdent.com/","https://ozdemirdentalcenter.com/","https://www.dentarmaturkey.com/tr/",
+  "https://www.newerasmile.com/","https://dentprecious.com/","https://bronzedentalclinic.com/","https://www.andepol.com/","https://amazingsmileturkey.com/","https://goclinicturkey.com/",
+  "https://yalindentalclinic.com/tr/","https://www.ozeldenaclinic.com/tr","https://idclinictr.com/","https://www.umutdentalclinicantalya.com/en","https://oriondentalhealth.com/","https://www.ortodentclinic.com/en","https://www.habitat-health.com/","https://www.dentlaracity.com/","https://www.panoramikdis.com.tr/","https://anteraklinik.com/en/index"
 ] 
 
 const GridSection = () => {
