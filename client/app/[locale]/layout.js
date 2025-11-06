@@ -32,6 +32,10 @@ export const metadata = {
     shortcut: "/favicon.ico",
     apple: "/apple-icon.png",     
   },
+
+    other: {
+    "facebook-domain-verification": "nsvy7fi9yjiqx81vazjz4qtjusjr79", // Facebook’un verdiği kod
+  },
 };
 
 export function generateStaticParams() {
@@ -84,11 +88,11 @@ export default async function RootLayout({ children, params }) {
             alt=""
           />
         </noscript>
+
            <NextIntlClientProvider locale={locale} messages={messages}>
-          <Header/>
-          <Header2/>
-        
-       <Suspense fallback={null}>
+           <Header/>
+           <Header2/>
+           <Suspense fallback={null}>
             <PixelRouteTracker />
           </Suspense>
         {children}
