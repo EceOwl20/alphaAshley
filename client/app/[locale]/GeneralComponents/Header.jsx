@@ -26,7 +26,7 @@ const Header = () => {
                   target="_blank" className='hidden lg:flex'><FaFacebookF size={12}/></Link>
         <Link href="https://www.instagram.com/alphaashleydanismanlik/" rel="norefferer nofollower"
                   target="_blank" className='hidden lg:flex'><FaInstagram size={13}/></Link>
-       <a href="tel:+905491961911" className='text-[10px] hover:text-[#ff214f]  cursor-pointer'>+90 549 196 19 11</a>
+       <a href="tel:+905435603313" className='text-[10px] hover:text-[#ff214f]  cursor-pointer'>+90 543 560 33 13</a>
        <div className='flex h-[10px] w-[1px] bg-[#757575]'></div>
        <a href="tel:+447538893032" className='text-[10px] hover:text-[#ff214f]  cursor-pointer'>+44 7538 893032</a>
        <div className='flex h-[10px] w-[1px] bg-[#757575]'></div>

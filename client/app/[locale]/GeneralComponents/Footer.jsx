@@ -72,8 +72,8 @@ const Footer = () => {
           <p className="text-[12px] font-montserrat font-semibold leading-[20px] uppercase text-darkGray mb-[15px]">
             {t("callUs")}
           </p>
-          <a href="tel:+905491961911" className="text-[12px] font-roboto font-normal leading-[20px]">
-            TR No: +90 549 196 19 11
+          <a href="tel:+905435603313" className="text-[12px] font-roboto font-normal leading-[20px]">
+            TR No: +90 543 560 33 13
           </a>
           <a href="tel:+447538893032" className="text-[12px] font-roboto font-normal leading-[20px] ">
             UK No:+44 7538 893032
